@@ -18,33 +18,33 @@
 		<!-- wrapper -->
 		<div class="wrapper">
 
-			<!-- header -->
-			<header class="header clear" role="banner">
+			<!-- header 
+			<header class="header clear" role="banner">-->
 
-					<!-- logo -->
+					<!-- logo 
 					<div class="logo">
-						<a href="<?php echo esc_url( home_url() ); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
+						<a href="<?php echo esc_url( home_url() ); ?>">-->
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img"> 
 						</a>
-					</div>
+					</div>-->
 					<!-- /logo -->
 
-					<!-- nav -->
+					<!-- nav 
 					<nav class="nav" role="navigation">
 						<?php html5blank_nav(); ?>
-					</nav>
+					</nav>-->
 					<!-- /nav -->
 
 			</header>
 			<!-- /header -->
 
 
-<!-- Marka icon example. Only awailable Bars and Times for hamburger menu -->
+<!-- Marka icon example. Only awailable Bars and Times for hamburger menu 
 
 <i id="menu_icon"></i>
-
-<!--  Example for fancybox and slick slider -->
+-->
+<!--  Example for fancybox and slick slider 
 <div class="your-class">
 	<div>your content</div>
 	<div>your content</div>
@@ -53,4 +53,4 @@
 
 <a data-fancybox="gallery" href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"></a>
 <a data-fancybox="gallery" href="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg"></a>
-
+-->
