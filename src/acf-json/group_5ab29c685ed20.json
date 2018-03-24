@@ -3,6 +3,44 @@
     "title": "Page content",
     "fields": [
         {
+            "key": "field_5ab632fcc6325",
+            "label": "Header color",
+            "name": "header_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Color in hexadecimal like #eeeeee.",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab633d367b0c",
+            "label": "Header css class",
+            "name": "header_css_class",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Put css classes you want to be added to the header here.",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5ab29c71e96c1",
             "label": "Elements",
             "name": "elements",
@@ -82,5 +120,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1521655501
+    "modified": 1521890342
 }
