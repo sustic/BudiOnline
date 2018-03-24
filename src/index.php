@@ -12,12 +12,31 @@
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
-<hr>
-<hr>
-<section class="headline-subheadline full-width text-center padding-fat">
+
+<section class="headline-subheadline narrow-width text-center padding-fat">
     <div class="container" style="background-color:#f5f5f5;">
         <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
+    </div>
+</section>
+<section class="headline-subheadline narrow-width text-center padding-fat">
+    <div class="container" style="background-color:#f5f5f5;">
+        <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
+    </div>
+</section>
+<section class="headline-subheadline narrow-width text-center padding-fat">
+    <div class="container" style="background-color:#f5f5f5;">
+        <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
+    </div>
+</section>
+<section class="headline-subheadline narrow-width text-center padding-fat">
+    <div class="container" style="background-color:#f5f5f5;">
+        <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati cum repellat alias sint eos voluptatum! Explicabo tempora suscipit minus ducimus, vero esse maiores in quis obcaecati autem quia, est laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, maiores. Minima repellendus rem mollitia eligendi doloremque tempore illo asperiores sequi repudiandae, nisi ex ducimus voluptate sunt tempora velit modi natus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi expedita deleniti necessitatibus, officia doloremque voluptatibus doloribus. Voluptates sed odio modi nesciunt accusantium quis iste ipsum aliquam aliquid corporis, neque earum!
+        </p>
     </div>
 </section>
 
