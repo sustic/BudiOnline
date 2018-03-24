@@ -4,9 +4,9 @@
 
 			</footer>
 			<!-- /footer -->
-
+<!--
 		</div>
-		<!-- /wrapper -->
+		 /wrapper -->
 
 		<?php wp_footer(); ?>
 

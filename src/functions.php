@@ -606,3 +606,10 @@ function gf_spinner_replace( $image_src, $form ) {
     return  'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; // relative to you theme images folder
 }
 add_filter( 'gform_ajax_spinner_url', 'gf_spinner_replace', 10, 2 );
+
+
+add_filter('acf/load_field/name=author_promo', 'acf_label_htmlentities');
+function acf_label_htmlentities($field) {
+    $field['label'] = htmlentities($field['label']);
+    return $field;
+}

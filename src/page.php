@@ -1,45 +1,46 @@
 <?php get_header(); ?>
+	<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+	<?php
 
-			<h1><?php the_title(); ?></h1>
+	// check if the flexible content field has rows of data
+	if( have_rows('elements') ):
 
-		<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
+		// loop through the rows of data
+		while ( have_rows('elements') ) : the_row();
 
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			if( get_row_layout() == 'free_code_element' ):
 
-				<?php the_content(); ?>
+				the_sub_field('code_element');
 
-				<?php comments_template( '', true ); // Remove if you don't want comments. ?>
+			elseif( get_row_layout() == 'download' ): 
 
-				<br class="clear">
+				$file = get_sub_field('file');
 
-				<?php edit_post_link(); ?>
+			endif;
 
-			</article>
-			<!-- /article -->
+		endwhile;
 
-		<?php endwhile; ?>
+	else :
 
-		<?php else : ?>
+		// no layouts found
 
-			<!-- article -->
-			<article>
+	endif;
 
-				<h2><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+	?>
 
-			</article>
-			<!-- /article -->
 
-		<?php endif; ?>
+	<?php endwhile; ?>
 
-		</section>
-		<!-- /section -->
-	</main>
+	<?php else : ?>
 
-<?php get_sidebar(); ?>
+		<!-- article -->
+		<article>
 
+			<h2><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+
+		</article>
+		<!-- /article -->
+
+	<?php endif; ?>
 <?php get_footer(); ?>
