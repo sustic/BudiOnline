@@ -8,6 +8,11 @@
 	  padding-left: 10%;
 	  padding-right: 10%;
 	}
+	.container-inner {
+		width: 95%;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 	h1{
 	  font-size: 42px;
 	  line-height: 1.2;
@@ -81,8 +86,8 @@
 
 .text-columns {
 	.container-inner {
-		width: 1200px;
-		max-width: 95%;
+		width: 95%;
+		max-width: 1200px;
 		margin: 0 auto;	 
 		display: flex;
 		justify-content: center;

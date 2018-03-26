@@ -17,7 +17,34 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .cta-menu-holder{
+        float: right;
+        display: block;
+        margin-top: 20px;
+        transition: margin-top 0.2s ease-in-out;
+        .header-login-link{
+            font-family: 'open_sansbold';
+            color: white;
+        }
+        .header-cta-link{
+            font-family: 'open_sansbold';
+            background-color: $hilight-green;
+            border: 1px solid $dark-green;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 15px;
+            margin-left: 13px;
+            opacity: 1;
+            transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+            &:hover{
+                background-color: $dark-green;
+                border: 1px solid $hilight-green;
+                text-decoration: none;
+            }
+        }
+    }
     .nav{
+        float: left;
         font-size: 14px;
         padding-top: 10px;
         transition: padding-top 0.2s ease-in-out;
@@ -111,6 +138,12 @@
     &.scrolled-nav{
         background: white;
         border-bottom: 1px solid lightgrey;
+        .cta-menu-holder{
+            margin-top: 14px;
+            .header-login-link{
+                color: $blue;
+            }
+        }
         .nav{
             padding-top: 0;
             li{

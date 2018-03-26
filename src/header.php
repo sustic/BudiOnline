@@ -12,6 +12,15 @@
 		<meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
 		<?php wp_head(); ?>
+
+		<?php 
+			/* Fetching menu object to get ACF-felds from wordpress menu page
+
+				TO-DO: Not sure if this is the best way. I hardcoded menu ID.. in this current form
+					   menu object is not wordpress installation agnostic. Need more work here.
+			*/
+			$menu_object = wp_get_nav_menu_object( 2 );
+		?>
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -27,10 +36,20 @@
 				<nav class="nav" role="navigation">
 					<?php html5blank_nav(); ?>
 				</nav>
+				<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
+					<div class="cta-menu-holder">
+				<?php endif; ?>
+						<?php if ( get_field('cta_text', $menu_object) ) : ?>
+							<a class="header-login-link" href="<?php echo the_field('log_in_link', $menu_object); ?>" title="<?php echo the_field('log_in_text', $menu_object); ?>"><?php echo the_field('log_in_text', $menu_object); ?></a>
+						<?php endif; ?>
+						<?php if ( get_field('log_in_text', $menu_object) ) : ?>
+							<a class="header-cta-link" href="<?php echo the_field('cta_link', $menu_object); ?>" title="<?php echo the_field('cta_text', $menu_object); ?>"><?php echo the_field('cta_text', $menu_object); ?></a>
+						<?php endif; ?>
+				<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
+					</div>
+				<?php endif; ?>
 			</div>
 		</header>
-
-
 
 		<!-- wrapper 
 		<div class="wrapper">
