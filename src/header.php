@@ -23,9 +23,7 @@
 		?>
 	</head>
 	<body <?php body_class(); ?>>
-
-
-		<header class="header clear narrow-width header-scroll-handler" role="banner">
+		<header class="header clear header-scroll-handler <?php if ( get_field('header_css_class') ) : ?> <?php echo get_field('header_css_class'); ?> <?php endif; ?>" role="banner" style="<?php if ( get_field('header_color') ) : ?> background:<?php echo get_field('header_color'); ?>; <?php endif; ?>">
 			<div class="container">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
@@ -36,6 +34,7 @@
 				<nav class="nav" role="navigation">
 					<?php html5blank_nav(); ?>
 				</nav>
+				<i id="menu_icon"></i>
 				<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
 					<div class="cta-menu-holder">
 				<?php endif; ?>
@@ -60,7 +59,7 @@
 
 <!-- Marka icon example. Only awailable Bars and Times for hamburger menu 
 
-<i id="menu_icon"></i>
+
 -->
 <!--  Example for fancybox and slick slider 
 <div class="your-class">

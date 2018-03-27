@@ -1,20 +1,5 @@
 <?php get_header(); ?>
 
-<section class="text-columns full-width padding-normal">
-    <div class="container" style="background-color:#f5f5f5;">
-        <div class="container-inner">
-            <div class="column-width-50">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
-            </div> 
-            <div class="column-width-50 text-right">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- 
     Element name: Headline & subheadline
     Awailable options:
@@ -67,37 +52,5 @@
         </div>
     </div>
 </section>
-
-
-
-<section class="headline-subheadline full-width text-center padding-normal">
-    <div class="container" style="background-color:#fefefe;">
-        <div class="container-inner">
-            <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
-            <p>Simplify and automate daily tasks and operations with the #1 choice in Web Hosting Automation.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="text-columns full-width padding-normal">
-    <div class="container" style="background-color:#f5f5f5;">
-        <div class="container-inner">
-            <div class="column-width-50">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
-            </div> 
-            <div class="column-width-50 text-right">
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 <?php get_footer(); ?>

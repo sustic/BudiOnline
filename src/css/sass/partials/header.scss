@@ -6,7 +6,13 @@
 
 // Header container
 .header {
-    background: $blue;
+    #menu_icon{
+        display: none;
+        cursor: pointer;
+        float: right;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
     transition: background-color 0.2s, border-bottom 0.2s ease-in-out;;
     border-bottom: 1px solid transparent;
     position: fixed;
@@ -90,9 +96,8 @@
                     padding: 10px 0;
                     border-radius: 5px;
                     box-shadow: 0 4px 5px #c3c3c3;
-                    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+                    left: -9999px;
                     li{
-                        padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
                         padding: 0 10px;
                         margin-right: 0;
                         float: none;
@@ -136,8 +141,11 @@
         }
     }
     &.scrolled-nav{
-        background: white;
+        background: white!important;
         border-bottom: 1px solid lightgrey;
+        #menu_icon{
+            margin-top: 10px;
+        }
         .cta-menu-holder{
             margin-top: 14px;
             .header-login-link{
@@ -159,6 +167,50 @@
                 color: $dark-blue;
                 span{
                  color: $dark-blue;   
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .header {
+        #menu_icon{
+            display: block;
+        }
+        .nav{
+            float: none;
+            display: block;
+            position: fixed;
+            top: 61px;
+            left: 0;
+            width: calc(100% + 20px);
+            height: calc(100% - 60px);
+            background: rgba(0,0,0,0.8);
+            overflow-y: scroll;
+            ul{
+                li{
+                    margin-right: 0;
+                    padding-right: 0;
+                    float: none;
+                    &.menu-item-has-children{
+                        margin-right: 0;
+                        padding-right: 0;
+                        &:after{
+                            display: none;
+                        }
+                    }
+                    ul{
+                        left: 0;
+                        position: relative;
+                        background-color: transparent;
+                        padding: 0;
+                        border-radius: 0;
+                        box-shadow: 0 0 0 transparent;
+                        li{
+                            padding: 0;
+                        }
+                    }
                 }
             }
         }
