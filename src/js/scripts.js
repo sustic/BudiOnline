@@ -1,9 +1,24 @@
 ( function( root, $, undefined ) {
 	'use strict';
 	var m;
+	var izbornik = 0;
 	$( document ).ready( function() {
 		m = new Marka( '#menu_icon' );
 		m.set( 'bars' ).size( 30 ).color( 'white' );
+		$( '#menu_icon' ).click( function() {
+			switch ( izbornik ) {
+				case 0:
+					izbornik = 1;
+					m.set( 'times' );
+					$( '.header' ).addClass( 'mobile-nav-active' );
+					break;
+				case 1:
+					izbornik = 0;
+					m.set( 'bars' );
+					$( '.header' ).removeClass( 'mobile-nav-active' );
+					break;
+			}
+		});
 	});
 
 	$( function() {

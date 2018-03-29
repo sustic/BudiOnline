@@ -33,6 +33,20 @@
 				</div>
 				<nav class="nav" role="navigation">
 					<?php html5blank_nav(); ?>
+					<div class="mobile-cta">
+						<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
+							<div class="cta-menu-holder">
+						<?php endif; ?>
+								<?php if ( get_field('cta_text', $menu_object) ) : ?>
+									<a class="header-login-link" href="<?php echo the_field('log_in_link', $menu_object); ?>" title="<?php echo the_field('log_in_text', $menu_object); ?>"><?php echo the_field('log_in_text', $menu_object); ?></a>
+								<?php endif; ?>
+								<?php if ( get_field('log_in_text', $menu_object) ) : ?>
+									<a class="header-cta-link" href="<?php echo the_field('cta_link', $menu_object); ?>" title="<?php echo the_field('cta_text', $menu_object); ?>"><?php echo the_field('cta_text', $menu_object); ?></a>
+								<?php endif; ?>
+						<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
+							</div>
+						<?php endif; ?>
+					</div>
 				</nav>
 				<i id="menu_icon"></i>
 				<?php if ( get_field('cta_text', $menu_object) || get_field('log_in_text', $menu_object) ) : ?>
