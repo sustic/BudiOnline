@@ -6,7 +6,13 @@
 
 // Header container
 .header {
-    background: $blue;
+    #menu_icon{
+        display: none;
+        cursor: pointer;
+        float: right;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
     transition: background-color 0.2s, border-bottom 0.2s ease-in-out;;
     border-bottom: 1px solid transparent;
     position: fixed;
@@ -17,10 +23,40 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .cta-menu-holder{
+        float: right;
+        display: block;
+        margin-top: 20px;
+        transition: margin-top 0.2s ease-in-out;
+        .header-login-link{
+            font-family: 'open_sansbold';
+            color: white;
+        }
+        .header-cta-link{
+            font-family: 'open_sansbold';
+            background-color: $hilight-green;
+            border: 1px solid $dark-green;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 15px;
+            margin-left: 13px;
+            opacity: 1;
+            transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+            &:hover{
+                background-color: $dark-green;
+                border: 1px solid $hilight-green;
+                text-decoration: none;
+            }
+        }
+    }
     .nav{
+        float: left;
         font-size: 14px;
         padding-top: 10px;
-        transition: padding-top 0.2s ease-in-out;
+        transition: padding-top 0.2s ease-in-out, height 0.2s ease-in-out, right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        .mobile-cta{
+            display: none;
+        }
         ul{
             list-style: none;
             float: left;
@@ -63,9 +99,8 @@
                     padding: 10px 0;
                     border-radius: 5px;
                     box-shadow: 0 4px 5px #c3c3c3;
-                    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+                    left: -9999px;
                     li{
-                        padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
                         padding: 0 10px;
                         margin-right: 0;
                         float: none;
@@ -109,8 +144,17 @@
         }
     }
     &.scrolled-nav{
-        background: white;
+        background: white!important;
         border-bottom: 1px solid lightgrey;
+        #menu_icon{
+            margin-top: 8px;
+        }
+        .cta-menu-holder{
+            margin-top: 12px;
+            .header-login-link{
+                color: $blue;
+            }
+        }
         .nav{
             padding-top: 0;
             li{
@@ -129,5 +173,146 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .header {
+        #menu_icon{
+            display: block;
+        }
+        .nav{
+            float: none;
+            display: block;
+            position: fixed;
+            top: 61px;
+            right: -270px;
+            width: 260px;
+            height: calc(100% - 61px);
+            border-left: 1px solid grey;
+            box-shadow: -2px 2px 4px grey;
+            background: #fcfcfc;
+            overflow-y: scroll;
+            ul{
+                display: block;
+                width: 100%;
+                li{
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    margin-right: 0;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                    margin-bottom: 20px;
+                    &.menu-item-has-children{
+                        margin-right: 0;
+                        padding-right: 20px;
+                        padding-left: 20px;
+                        margin-bottom: 0;
+                        &:after{
+                            display: none;
+                        }
+                    }
+                    ul{
+                        left: 0;
+                        position: relative;
+                        background-color: transparent;
+                        padding: 0;
+                        border-radius: 0;
+                        box-shadow: 0 0 0 transparent;
+                        margin-bottom: 15px;
+                        li{
+                            padding: 0;
+                            margin-bottom: 5px;;
+                            a{
+                                color: $grey;
+                                font-size: 14px;
+                                font-family: 'open_sansregular';
+                            }
+                        }
+                    }
+                    a{
+                        font-size: 25px;
+                        color: $grey;
+                        font-family: 'open_sansbold';
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
+        &.scrolled-nav{
+            .nav{
+                top: 46px;
+                height: calc(100% - 46px);
+                ul{
+                    li{
+                        a{
+                            color: $grey;
+                        }
+                        ul{
+                            li{
+                                a{
+                                    color: $grey;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.mobile-nav-active{
+            .nav{
+                right: -20px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:550px) {
+    .header .cta-menu-holder .header-cta-link{
+        padding: 5px;
+    }
+    .header .logo a {
+        font-size: 25px;
+        line-height: 2.4;
+    }
+    .header.scrolled-nav .logo a {
+        font-size: 23px;
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .header{
+        .cta-menu-holder{
+            display: none;
+        }
+        .nav{
+            .cta-menu-holder{
+                display: block;
+                float: none;
+            }
+            .mobile-cta{
+                display: block;
+                width: 100%;
+                float: left;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                .header-login-link{
+                    display: block;
+                }
+                .header-cta-link{
+                    display: block;
+                    margin-top: 10px;
+                    margin-left: 0;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    .header .cta-menu-holder .header-login-link{
+        color: $blue;
     }
 }

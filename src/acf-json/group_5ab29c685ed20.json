@@ -34,7 +34,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "narrow-width",
             "placeholder": "Put css classes you want to be added to the header here.",
             "prepend": "",
             "append": "",
@@ -120,5 +120,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1521890342
+    "modified": 1522176521
 }
