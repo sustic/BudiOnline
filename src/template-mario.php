@@ -17,35 +17,38 @@
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
-<section class="text-columns icons full-width padding-normal">
+
+<section class="icons full-width text-center padding-normal">
     <div class="container" style="background-color:#f5f5f5;">
+        <h1 style="color:#31628a">Naslov</h1>
+        <p>podnaslov</p>
         <div class="container-inner">
-            <div class="column-width-33 text-center">
+            <div class="column-width-50">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/005-worldwide.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
             </div> 
-            <div class="column-width-33 text-center">
+            <div class="column-width-50">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/009-browser-2.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
             </div>
-            <div class="column-width-33 text-center">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/012-shield-1.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
             </div>
-            <div class="column-width-33 text-center">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/013-package.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
             </div>
-            <div class="column-width-33 text-center">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/015-list.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
             </div>
-            <div class="column-width-33 text-center">
+            <div class="column-width-25">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/015-technology-3.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
