@@ -12,23 +12,24 @@
                     column-width-33 -> 33.33% width
                     column-width-50 -> 50% width
                     column-width-100 -> 100% width
+            color
         HTML:
-            h1, h2, h3, h5, strong, b, i, a
+            h1, h5, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
 
-<section class="icons full-width text-center padding-normal">
+<section class="icons full-width padding-normal text-center">
     <div class="container" style="background-color:#f5f5f5;">
-        <h1 style="color:#31628a">Naslov</h1>
-        <p>podnaslov</p>
+        <h1 style="color:#31628a">More domain automation features</h1>
+        <p style="color:#000;">Everything you need to become a professional domain registrar.</p>        
         <div class="container-inner">
-            <div class="column-width-50">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/005-worldwide.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
             </div> 
-            <div class="column-width-50">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/009-browser-2.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
@@ -48,7 +49,7 @@
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
             </div>
-            <div class="column-width-25">
+            <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/015-technology-3.png" alt="">
                 <h5>Lorem ipsum</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, et commodi dicta, asperiores quae cum quidem voluptatem quibusdam beatae officia, quia repellendus maiores. Quasi aliquid dolores, esse doloribus odio vitae.</p>
