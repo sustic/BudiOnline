@@ -5,7 +5,7 @@
     Awailable options:
         CSS:
             width:    full-width, narrow-width
-            text:     text-left, text-center, text-right
+            text:     padding-fat, padding-normal, padding-small, padding-tiny
             padding:  padding-fat, padding-normal
             background-color
         HTML:
@@ -31,7 +31,7 @@
         CSS:
             width:    full-width, narrow-width
             text:     text-left, text-center, text-right
-            padding:  padding-fat, padding-normal
+            padding:  padding-fat, padding-normal, padding-small, padding-tiny
             background-color
         HTML:
             h1, h2, h3, strong, b, i, a

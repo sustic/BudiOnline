@@ -6,7 +6,7 @@
         CSS:
             width:    full-width, narrow-width
             text:     text-left, text-center, text-right
-            padding:  padding-fat, padding-normal
+            padding:  padding-fat, padding-normal, padding-small, padding-tiny
             background-color
             column: column-width-25 -> 25% width
                     column-width-33 -> 33.33% width
@@ -21,8 +21,10 @@
 
 <section class="icons full-width padding-normal text-center">
     <div class="container" style="background-color:#f5f5f5;">
-        <h1 style="color:#31628a">More domain automation features</h1>
-        <p style="color:#000;">Everything you need to become a professional domain registrar.</p>        
+        <div class="icons-headline-holder">
+            <h1 style="color:#31628a">More domain automation features</h1>
+            <p style="color:#000;">Everything you need to become a professional domain registrar.</p> 
+        </div>               
         <div class="container-inner">
             <div class="column-width-33">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/005-worldwide.png" alt="">

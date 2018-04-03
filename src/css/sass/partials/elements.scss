@@ -194,25 +194,28 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	h1 {
-		font-size: 50px;
-		line-height: 1.15;
-		font-family: 'ralewayregular';
-		font-weight: 400;
-		margin-top: 0;
-		margin-bottom: 10px;
-	}
-	p {
-		font-family: 'ralewayregular';
-		font-size: 18px;
-		line-height: 1.7;
-		margin-top: 0;
-		margin-bottom: 0;
+	.icons-headline-holder{
+		margin-bottom: 60px;
+		h1 {
+			font-size: 50px;
+			line-height: 1.15;
+			font-family: 'ralewayregular';
+			font-weight: 400;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+		p {
+			font-family: 'ralewayregular';
+			font-size: 18px;
+			line-height: 1.7;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
 	}
 	.container-inner {
 		width: 100%;
 		max-width: 1200px;
-		margin: 60px auto;
+		margin: 0 auto;
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;

@@ -116,6 +116,18 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 60px;
   }
 }
+.padding-small{
+  .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.padding-tiny{
+  .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 
 /* WIDTH OPTIONS */
 .full-width{
