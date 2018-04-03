@@ -66,37 +66,6 @@
 
 
 
-<!-- 
-    Element name: Heading with tabs
-    Awailable options:
-        CSS:
-            width:    full-width, narrow-width
-            text:     text-left, text-center, text-right
-            padding:  padding-fat, padding-normal, padding-small, padding-tiny
-            background-color
-        HTML:
-            h1, h2, h3, strong, b, i, a
-        a:
-            target="_blank" ***** To open link on a new tab *****
--->
-<section class="heading-with-tabs full-width padding-normal">
-    <div class="container" style="background-color:#ef4f52;">
-        <div class="container-inner">
-            <div class="content-holder column-width-50">
-                <h1 style="color:white">Domain Reselling</h1>
-                <p style="color:white">All the tools you need to sell domains including advanced domain suggestions and a fully featured self service management portal for customers.</p>
-            </div>
-            <div class="icon-holder column-width-50">
-                <img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
 		<!-- wrapper 
 		<div class="wrapper">
 		-->

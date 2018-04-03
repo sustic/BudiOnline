@@ -54,6 +54,7 @@
 </section>
 
 
+
 <!-- 
     Element name: Heading with tabs
     Awailable options:
@@ -68,17 +69,31 @@
             target="_blank" ***** To open link on a new tab *****
 -->
 <section class="heading-with-tabs full-width padding-normal">
-    <div class="container" style="background-color:#d93d40;">
+    <div class="container" style="background-color:#ef4f52;">
         <div class="container-inner">
-            <div class="icon-holder column-width-60">
-                <h1>Domain Reselling</h1>
-                <p>All the tools you need to sell domains including advanced domain suggestions and a fully featured self service management portal for customers.</p>
+            <div class="content-holder column-width-50">
+                <h1 style="color:white">Domain Reselling</h1>
+                <p style="color:white">All the tools you need to sell domains including advanced domain suggestions and a fully featured self service management portal for customers.</p>
             </div>
-            <div class="content-holder column-width-40">
+            <div class="icon-holder column-width-50">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
             </div>
         </div>
-    </div>
+	</div>
+	<div class="heading-tab-container">
+		<div class="container-inner">
+			<nav>
+				<ul>
+					<li><a href="#" title="Home">Home</a></li>
+					<li><a href="#" title="Hosting">Hosting</a></li>
+					<li><a class="active" href="#" title="Domain">Domain</a></li>
+					<li><a href="#" title="VPS">VPS</a></li>
+					<li><a href="#" title="Dedicated">Dedicated</a></li>
+					<li><a href="#" title="Support">Support</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
 </section>
 
 
