@@ -58,6 +58,21 @@
     </div>
 </section>
 
+<!-- 
+    Element name: Feature zig-zag
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+            text:     text-left, text-center, text-right
+            padding:  padding-fat, padding-normal
+            background-color
+            row, img-text or text-img 
+        HTML:
+            h1,h2,h3,h4 strong, b, i, a
+        a:
+            target="_blank" ***** To open link on a new tab *****
+-->
+
 <section class="zig-zag full-width padding-normal">
     <div class="container" style="background-color:lightgrey;">
         <div class="row img-text">
