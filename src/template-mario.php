@@ -58,6 +58,36 @@
     </div>
 </section>
 
+<section class="zig-zag full-width padding-normal">
+    <div class="container" style="background-color:lightgrey;">
+        <div class="row img-text">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/085-newspaper.png" alt="">
+            </div>
+            <div class="column-text">
+                <h1>Some heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+        <div class="row text-img">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/082-internet.png" alt="">
+            </div>
+            <div class="column-text">
+                <h2>Some heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+        <div class="row img-text">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/083-database.png" alt="">
+            </div>
+            <div class="column-text">
+                <h3><a href="#">Some heading</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <a href="#">elit</a>. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+</section>
 
 
 <?php get_footer(); ?>
