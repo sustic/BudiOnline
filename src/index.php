@@ -13,7 +13,6 @@
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
-
 <section class="headline-subheadline full-width text-center padding-normal">
     <div class="container" style="background-color:#fefefe;">
         <div class="container-inner">
@@ -53,8 +52,6 @@
     </div>
 </section>
 
-
-
 <!-- 
     Element name: Heading with tabs
     Awailable options:
@@ -63,6 +60,15 @@
             text:     text-left, text-center, text-right
             padding:  padding-fat, padding-normal, padding-small, padding-tiny
             background-color
+            columns: column-width-10
+                     column-width-20
+                     column-width-25
+                     column-width-30
+                     column-width-33
+                     column-width-40
+                     column-width-50
+                     column-width-60
+                     column-width-100
         HTML:
             h1, h2, h3, strong, b, i, a
         a:
@@ -71,12 +77,12 @@
 <section class="heading-with-tabs full-width padding-normal">
     <div class="container" style="background-color:#ef4f52;">
         <div class="container-inner">
+            <div class="icon-holder column-width-50">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
+            </div>
             <div class="content-holder column-width-50">
                 <h1 style="color:white">Domain Reselling</h1>
                 <p style="color:white">All the tools you need to sell domains including advanced domain suggestions and a fully featured self service management portal for customers.</p>
-            </div>
-            <div class="icon-holder column-width-50">
-                <img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
             </div>
         </div>
 	</div>
@@ -86,15 +92,18 @@
 				<ul>
 					<li><a href="#" title="Home">Home</a></li>
 					<li><a href="#" title="Hosting">Hosting</a></li>
-					<li><a class="active" href="#" title="Domain">Domain</a></li>
+					<li><a class="active" style="background-color:#ef4f52;" href="#" title="Domain">Domain</a></li>
 					<li><a href="#" title="VPS">VPS</a></li>
 					<li><a href="#" title="Dedicated">Dedicated</a></li>
-					<li><a href="#" title="Support">Support</a></li>
+                    <li><a href="#" title="Support">Support</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 </section>
+
+
+
 
 
 <?php get_footer(); ?>
