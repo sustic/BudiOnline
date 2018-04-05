@@ -49,7 +49,13 @@
 
 		// Slick example
 		$( document ).ready( function() {
-			$( '.your-class' ).slick();
+			$( '.main-slider' ).slick({
+				speed: 400,
+				autoplay: true,
+				centerMode: true,
+				slidesToShow: 1,
+				centerPadding: '0'
+		});
 		});
 	});
 } ( this, jQuery ) );

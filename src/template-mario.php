@@ -14,7 +14,7 @@
                     column-width-100 -> 100% width
             color
         HTML:
-            h1, h5, strong, b, i, a
+            5, h5, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
@@ -56,6 +56,51 @@
             </div>
         </div>
     </div>
+</section>
+
+<!-- 
+    Element name: Feature Text Slider
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+            text:     text-left, text-center, text-right
+            padding:  padding-fat, padding-normal
+            background-color
+            
+        HTML:
+            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+        a:
+            target="_blank" ***** To open link on a new tab *****
+-->
+
+<section class="slider full-width padding-normal">
+    <div class="container" style="background-color:#ccc">
+        <div class="main-slider text-center">
+            <div>
+                <blackquote>
+                "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores, porro excepturi dolore repellat, eum accusantium quisquam qui voluptates dolorem?"
+                </blackquote>
+                <h1><a href="#">Some Title</a></h1>
+                <p>Some text</p>
+            </div>
+            <div>
+                <h1>Some Title</h1>
+                <p>Some text</p>
+                <blackquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                </blackquote>
+                
+            </div>
+            <div>
+                <blackquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                </blackquote>
+                <h1>Some Title</h1>
+                <p>Some text</p>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
