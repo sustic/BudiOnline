@@ -14,7 +14,7 @@
                     column-width-100 -> 100% width
             color
         HTML:
-            h1, h5, strong, b, i, a
+            5, h5, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
@@ -58,6 +58,86 @@
             </div>
         </div>
     </div>
+</section>
+
+<!-- 
+    Element name: Feature zig-zag
+    Element name: Feature Text Slider
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+            text:     text-left, text-center, text-right
+            padding:  padding-fat, padding-normal
+            background-color
+            row, img-text or text-img 
+        HTML:
+            h1,h2,h3,h4 strong, b, i, a
+            
+        HTML:
+            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+        a:
+            target="_blank" ***** To open link on a new tab *****
+-->
+
+<section class="zig-zag full-width padding-normal">
+    <div class="container" style="background-color:lightgrey;">
+        <div class="row img-text">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/085-newspaper.png" alt="">
+            </div>
+            <div class="column-text">
+                <h1>Some heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+        <div class="row text-img">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/082-internet.png" alt="">
+            </div>
+            <div class="column-text">
+                <h2>Some heading</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+        <div class="row img-text">
+            <div class="column-img">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/083-database.png" alt="">
+            </div>
+            <div class="column-text">
+                <h3><a href="#">Some heading</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <a href="#">elit</a>. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+            </div>   
+        </div>
+</section>
+
+<section class="slider full-width padding-normal">
+    <div class="container" style="background-color:#ccc">
+        <div class="main-slider text-center">
+            <div>
+                <blackquote>
+                "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores, porro excepturi dolore repellat, eum accusantium quisquam qui voluptates dolorem?"
+                </blackquote>
+                <h1><a href="#">Some Title</a></h1>
+                <p>Some text</p>
+            </div>
+            <div>
+                <h1>Some Title</h1>
+                <p>Some text</p>
+                <blackquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                </blackquote>
+                
+            </div>
+            <div>
+                <blackquote>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                </blackquote>
+                <h1>Some Title</h1>
+                <p>Some text</p>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 
