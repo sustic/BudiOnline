@@ -28,6 +28,9 @@ var gulp = require( 'gulp' ),
 		/** Slick */
 		'src/js/lib/slick.min.js',
 
+		/** Fontawesome */
+		'src/js/lib/fontawesome-all.min.js',
+
 		/** Page scripts */
 		'src/js/scripts.js'
 	],
@@ -61,6 +64,9 @@ var gulp = require( 'gulp' ),
 
 			/** Slick-theme */
 			'src/css/lib/slick-theme.css',
+
+			/** Fontawesome */
+			'src/css/lib/fa-svg-with-js.css',
 
 			/** Theme style */
 			'src/css/style.css'

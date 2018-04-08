@@ -29,6 +29,14 @@ body {
   padding-top: 60px;
 }
 
+body {
+  display: none;
+}
+
+.fontawesome-i2svg-active body {
+  display: initial;
+}
+
 img {
   // Don't allow <IMG> to be larger then its container
   max-width: 100%;
