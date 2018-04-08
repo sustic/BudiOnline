@@ -54,8 +54,9 @@
 				autoplay: true,
 				centerMode: true,
 				slidesToShow: 1,
-				centerPadding: '0'
-		});
+				centerPadding: '0',
+				adaptiveHeight: true
+			});
 		});
 	});
 
