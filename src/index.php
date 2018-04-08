@@ -50,7 +50,6 @@
 	</div>
 </section>
 
-
 <!-- 
     Element name: Headline & subheadline
     Awailable options:
@@ -74,6 +73,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- 
     Element name: Text Columns
@@ -103,8 +103,22 @@
     </div>
 </section>
 
+<!-- 
+    Element name: Google Map
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+            height:   any number of pixels
 
-
+        !!!WARNING!!! This element has to be MAX ONE PER PAGE
+-->
+<section class="map full-width">
+    <div class="container">
+        <div class="container-inner">
+            <div id="map" style="height:400px;"></div>
+        </div>
+    </div>
+</section>
 
 
 
