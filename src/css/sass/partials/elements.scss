@@ -316,7 +316,16 @@
 
 .zig-zag {
 	.container {
-		.row {
+		.row-center {
+			max-width: 1200px;
+			width: 95%;
+			margin: 60px auto;
+			display: flex;
+			align-items: center;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.row-top {
 			max-width: 1200px;
 			width: 95%;
 			margin: 60px auto;
@@ -325,6 +334,7 @@
 			padding-left: 10px;
 			padding-right: 10px;
 		}
+
 		.img-text {
 			flex-direction: row;
 			justify-content: flex-start;			
@@ -402,6 +412,24 @@
 			}
 			h3{
 				font-size: 32px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.zig-zag {
+		.container {
+			.row-center, .row-top {
+				flex-direction: column;
+				align-items: center;
+			}
+			.column-img {
+				margin-bottom: 20px;
+				img {
+					max-width: 90px;
+					width: 100%;
+				}
 			}
 		}
 	}

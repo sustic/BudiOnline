@@ -66,7 +66,7 @@
             text:     text-left, text-center, text-right
             padding:  padding-fat, padding-normal
             background-color
-            row, img-text or text-img 
+            row-center or row-top, img-text or text-img 
         HTML:
             h1,h2,h3,h4 strong, b, i, a
         a:
@@ -75,16 +75,16 @@
 
 <section class="zig-zag full-width padding-normal">
     <div class="container" style="background-color:lightgrey;">
-        <div class="row img-text">
+        <div class="row-center img-text">
             <div class="column-img">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/085-newspaper.png" alt="">
             </div>
             <div class="column-text">
                 <h1>Some heading</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat magnam voluptatum hic dolore similique optio quo maxime exercitationem harum corrupti, ad pariatur quos nisi enim, ipsum sapiente id iste praesentium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat magnam voluptatum hic dolore similique optio quo maxime exercitationem harum corrupti, ad pariatur quos nisi enim, ipsum sapiente id iste praesentium.</p>
             </div>   
         </div>
-        <div class="row text-img">
+        <div class="row-top text-img">
             <div class="column-img">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/082-internet.png" alt="">
             </div>
@@ -93,7 +93,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex quis, sequi placeat beatae quisquam repellendus, enim ullam delectus iure suscipit</p>
             </div>   
         </div>
-        <div class="row img-text">
+        <div class="row-top img-text">
             <div class="column-img">
                 <img src="<?php echo get_template_directory_uri();?>/img/icons/083-database.png" alt="">
             </div>
