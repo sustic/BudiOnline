@@ -51,7 +51,7 @@
 		$( document ).ready( function() {
 			$( '.main-slider' ).slick({
 				speed: 400,
-				autoplay: false,
+				autoplay: true,
 				centerMode: true,
 				slidesToShow: 1,
 				centerPadding: '0'
