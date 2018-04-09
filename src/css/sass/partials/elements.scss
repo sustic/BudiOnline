@@ -685,14 +685,13 @@
 		}
 	}
 }
-<<<<<<< HEAD
 .slider {
 	.container {
 		padding-left: 10%;
 		padding-right: 10%;
 	
 		.main-slider {
-			max-width: 1200px;
+			max-width: 780px;
 			width: 95%;
 			padding: 10px 20px;
 			margin: 0 auto;
@@ -701,7 +700,10 @@
 				padding-right: 20px;
 			}
 			.slick-next {
-				right:5px;
+				right:6px;
+			}
+			.slick-prev {
+				left:-23px;
 			}
 			.slick-prev:before, .slick-next:before {
 				font-size: 50px;
@@ -791,8 +793,6 @@
 	}
 }
 
-=======
->>>>>>> feature-zig-zag
 
 @media only screen and (max-width:768px) {
 	.zig-zag {
@@ -806,6 +806,20 @@
 				img {
 					max-width: 90px;
 					width: 100%;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:768px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-next {
+					right:7px;
+				}
+				.slick-prev {
+					left:-23px;
 				}
 			}
 		}

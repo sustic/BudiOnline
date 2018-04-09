@@ -117,11 +117,11 @@
                 <blackquote>
                 "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores, porro excepturi dolore repellat, eum accusantium quisquam qui voluptates dolorem?"
                 </blackquote>
-                <h1><a href="#">Some Title</a></h1>
+                <h5><a href="#">Some Title</a></h5>
                 <p>Some text</p>
             </div>
             <div>
-                <h1>Some Title</h1>
+                <h5>Some Title</h5>
                 <p>Some text</p>
                 <blackquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
@@ -132,7 +132,7 @@
                 <blackquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
                 </blackquote>
-                <h1>Some Title</h1>
+                <h5>Some Title</h5>
                 <p>Some text</p>
             </div>
         </div>
