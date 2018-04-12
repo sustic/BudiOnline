@@ -2,6 +2,61 @@
  * partials/footer
  * ---
  */
-
-
-.footer {}
+.footer {
+    .footer-top {
+        .container {        
+            .row {
+                width: 95%;
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between; 
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .column {
+                    flex-basis: 20%;
+                }
+                .column-double {
+                    flex-basis: 40%;
+                }
+                .column, .column-double {
+                    padding: 0 1%;                
+                    h3{
+                        color: #cad3dc;
+                        font-size: 16px;
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #445a71;
+                        font-family: 'ralewaybold';
+                        font-weight: 400;
+                    }
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    a {
+                        color: #8ea7bf;
+                        text-decoration: none;
+                        transition: all 0.2s;
+                        font-size: 14px;
+                        line-height: 1.7;
+                        font-family: 'open_sansregular';
+                        &:hover{
+                            cursor: pointer;
+                            color: white;
+                        }
+                    }
+                    .row-inner {
+                        display: flex;
+                        .column {
+                            flex-basis: 50%;
+                            padding: 0;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
