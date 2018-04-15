@@ -102,8 +102,7 @@
         </div>
     </div>
 </section>
-
-<!-- 
+<!--
     Element name: Google Map
     Awailable options:
         CSS:
@@ -119,8 +118,6 @@
         </div>
     </div>
 </section>
-
-
 
 
 <?php get_footer(); ?>
