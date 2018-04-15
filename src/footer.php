@@ -7,20 +7,22 @@
 						padding:  padding-fat, padding-normal, padding-small, padding-tiny
 						text:     text-left, text-center, text-right
 						background-color
-						columns: column -> 16.667%
-								 column-double -> 33.334%
-								 
+						columns: column-width-16 -> 16.667%
+								 column-width-16x2 -> 33.334% - row-inner -> column-width-50
+								 column-width-33
+								 column-width-50
+								 column-width-100	
 					HTML:
-						h3, strong, b, i, a
+						h1, h2, h3, h4, strong, b, i, a
 					a:
 						target="_blank" ***** To open link on a new tab *****
 			-->
 
 			<footer class="footer" role="contentinfo">
-				<div class="footer-top full-width padding-normal ">
+				<div class="footer-top full-width padding-normal">
 					<div class="container" style="background-color: #2E4051">
 						<div class="container-inner">
-							<div class="column text-left">
+							<div class="column-width-16 text-left">
 								<h3>Product</h3>
 								<ul>
 									<li><a href="#">Tour</a></li>
@@ -30,7 +32,7 @@
 									<li><a href="#">Pricing</a></li>
 								</ul>
 							</div>
-							<div class="column text-left">
+							<div class="column-width-16 text-left">
 								<h3>Uses</h3>
 								<ul>
 									<li><a href="">Web Hosting</a></li>
@@ -41,7 +43,7 @@
 									<li><a href="">ISP Billing</a></li>
 								</ul>
 							</div>
-							<div class="column text-left">
+							<div class="column-width-16 text-left">
 								<h3>Support</h3>
 								<ul>
 									<li><a href="">Technical Support</a></li>
@@ -51,10 +53,10 @@
 									<li><a href="">Contact Us</a></li>									
 								</ul>
 							</div>
-							<div class="column-double">
+							<div class="column-width-16x2">
 								<h3>Resources</h3>
 								<div class="row-inner">
-									<div class="column text-left">
+									<div class="column-width-50 text-left">
 										<ul>
 											<li><a href="">Free Tools</a></li>
 											<li><a href="">Marketplace</a></li>
@@ -64,7 +66,7 @@
 											<li><a href="">Developer Portal</a></li>
 										</ul>
 									</div>
-									<div class="column text-left">
+									<div class="column-width-50 text-left">
 										<ul>
 											<li><a href="">License Verification</a></li>
 											<li><a href="">Media Resources</a></li>
@@ -75,7 +77,7 @@
 									</div>									
 								</div>
 							</div>
-							<div class="column text-left">
+							<div class="column-width-16 text-left">
 								<h3>Company</h3>
 								<ul>
 									<li><a href="">About Us</a></li>
@@ -84,7 +86,7 @@
 									<li><a href="">Jobs</a></li>
 									<li><a href="">Contact</a></li>									
 								</ul>
-							</div>							
+							</div>								
 						</div>						
 					</div>				
 				</div>
