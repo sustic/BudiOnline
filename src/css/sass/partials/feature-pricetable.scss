@@ -152,10 +152,10 @@
                         background: #62acc6;
                         border-radius: 8px;
                         color: white;
-                        opacity: 0.8;
+                        opacity: 1;
                         transition: opacity 0.2s ease-in-out;
                         &:hover, &:focus, &:active{
-                            opacity: 1;
+                            opacity: 0.9;
                             text-decoration: none;
                             color: white;
                         }
