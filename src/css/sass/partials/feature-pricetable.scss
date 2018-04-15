@@ -2,3 +2,136 @@
  * partials/feature-pricetable
  * ---
  */
+.price-table{
+    .container{
+		.container-inner {
+			width: 95%;
+			padding-left: 10px;
+			padding-right: 10px;
+			max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            align-content: center;
+            .price-box{
+                width: 23%;
+                background-color: white;
+                height: auto;
+                margin: 1%;
+                border: 1px solid #f0f0f0;
+                border-radius: 8px;
+                transition: transform 0.2s ease-in-out;
+                position: relative;
+                &:before{
+                    content: '';
+                    height: 23px;
+                    margin-top: 1px;
+                    opacity: 0.4;
+                    position: absolute;
+                    left: 0;
+                    top: 100%;
+                    width: 100%;
+                    background: url(img/shadow.png) 50% 100% no-repeat;
+                    background-size: 100% 23px;
+                }
+                &:hover, &.active{
+                    transform: scale(1.1)
+                }
+                .price-header{
+                    text-align: center;
+                    border-radius: 8px 8px 0 0;
+                    padding: 20px 10px;
+                    color: white;
+                    h1, h2, h3, h4, h5, h6{
+                        padding: 0;
+                        margin: 0;
+                        font-family: 'ralewaybold';
+                        font-size: 28px;
+                    }
+                    p{
+                        padding: 0;
+                        margin: 0;
+                        font-family: 'open_sansregular';
+                        margin-bottom: 10px;
+                    }
+                }
+                .price-holder{
+                    text-align: center;
+                    padding: 20px;
+                    border-bottom: 1px solid #f0f0f0;
+                    p{
+                        font-family: 'open_sansregular';
+                        color: #a9a7a7;
+                        margin: 0;
+                        span{
+                            font-family: 'open_sansbold';
+                            font-size: 45px;
+                            line-height: 1;
+                            color: black;
+                        }
+                    }
+                }
+                .price-package{
+                    text-align: center;
+                    padding: 20px;
+                    border-bottom: 1px solid #f0f0f0;
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        li{
+                            width: 100%;
+                            text-align: center;
+                            font-size: 16px;
+                            font-family: 'open_sansregular';
+                        }
+                    }
+                }
+                .price-description{
+                    text-align: center;
+                    padding: 20px;
+                    border-bottom: 1px solid #f0f0f0;
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        li{
+                            width: 100%;
+                            text-align: center;
+                            font-size: 13px;
+                            font-family: 'ralewayregular';
+                        }
+                    }
+                }
+                .price-cta-holder{
+                    padding: 20px;
+                    a{
+                        display: block;
+                        width: 80%;
+                        height: auto;
+                        text-align: center;
+                        font-size: 25px;
+                        font-family: 'open_sansbold';
+                        margin: 0 auto;
+                        background: #62acc6;
+                        border-radius: 8px;
+                        color: white;
+                        opacity: 0.8;
+                        transition: opacity 0.2s ease-in-out;
+                        &:hover, &:focus, &:active{
+                            opacity: 1;
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

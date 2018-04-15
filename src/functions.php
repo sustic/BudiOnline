@@ -436,6 +436,7 @@ remove_filter( 'the_excerpt', 'wpautop' ); // Remove <p> tags from Excerpt altog
 // Shortcodes
 //add_shortcode( 'html5_shortcode_demo', 'html5_shortcode_demo' ); // You can place [html5_shortcode_demo] in Pages, Posts now.
 //add_shortcode( 'html5_shortcode_demo_2', 'html5_shortcode_demo_2' ); // Place [html5_shortcode_demo_2] in Pages, Posts now.
+add_shortcode( 'get_image_folder_url', 'get_image_folder_url' );
 
 // Shortcodes above would be nested like this -
 // [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
@@ -597,6 +598,12 @@ function html5_shortcode_demo_2( $atts, $content = null ) {
     return '<h2>' . $content . '</h2>';
 }
 
+
+// Shortcode to get image URL
+$imagesFolder = get_template_directory_uri();
+function get_image_folder_url( $atts, $content = null ) {
+    return  $imagesFolder . '/img';
+}
 
 
 

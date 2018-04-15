@@ -64,7 +64,7 @@
             target="_blank" ***** To open link on a new tab *****
 -->
 <section class="headline-subheadline full-width text-center padding-normal">
-    <div class="container" style="background-color:#fefefe;">
+    <div class="container" style="background-color:white; border-bottom: 1px solid #ccc;">
         <div class="container-inner">
             <h1>Lorem <a href="#">ipsum dolor</a> sit amet consectetur</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam tenetur iure velit nemo culpa ipsa natus suscipit fuga totam, neque sequi praesentium excepturi.</p>
@@ -74,6 +74,163 @@
     </div>
 </section>
 
+
+<!--
+    Element name: Price table
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="price-table full-width padding-normal">
+    <div class="container" style="background-color:white; border-bottom: 1px solid #ccc">
+        <div class="container-inner">
+
+            <div class="price-box column-width-25">
+                <div class="price-header" style="background-color: #ef4f52">
+                    <h3>Entry 5GB</h3>
+                    <p>za Svakog, a Najbolji za Školu...</p>
+                </div>
+                <div class="price-holder">
+                    <p>
+                        <span>123kn</span>
+                        <br>
+                        godišnje, PDV uključen
+                    </p>
+                </div>
+                <div class="price-package" style="background-color: #f5f5f5">
+                    <ul>
+                        <li><strong>1</strong> Domena na serveru</li>
+                        <li><strong>5</strong> GB RAID Diska Prostora</li>
+                        <li><strong>25600</strong> MB Prometa/mj.</li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                    </ul>
+                </div>
+                <div class="price-description">
+                    <ul>
+                        <li>HP Xeon Hardware</li>
+                        <li>cPanel Powered</li>
+                        <li>99.0% Uptime Garancija</li>
+                        <li>50 Email, 3 MySQL Baza i FTP 3 Parkirane domene</li>
+                    </ul>
+                </div>
+                <div class="price-cta-holder">
+                    <a href="#" title="" tagret="_blank" style="background-color: #ef4f52">Naruči</a>
+                </div>
+            </div>
+
+
+            <div class="price-box column-width-25">
+                <div class="price-header" style="background-color: #3ca77f">
+                    <h3>Entry 5GB</h3>
+                    <p>za Svakog, a Najbolji za Školu...</p>
+                </div>
+                <div class="price-holder">
+                    <p>
+                        <span>123kn</span>
+                        <br>
+                        godišnje, PDV uključen
+                    </p>
+                </div>
+                <div class="price-package" style="background-color: #f5f5f5">
+                    <ul>
+                        <li><strong>1</strong> Domena na serveru</li>
+                        <li><strong>5</strong> GB RAID Diska Prostora</li>
+                        <li><strong>25600</strong> MB Prometa/mj.</li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                    </ul>
+                </div>
+                <div class="price-description">
+                    <ul>
+                        <li>HP Xeon Hardware</li>
+                        <li>cPanel Powered</li>
+                        <li>99.0% Uptime Garancija</li>
+                        <li>50 Email, 3 MySQL Baza i FTP 3 Parkirane domene</li>
+                    </ul>
+                </div>
+                <div class="price-cta-holder">
+                    <a href="#" title="" tagret="_blank" style="background-color: #3ca77f">Naruči</a>
+                </div>
+            </div>
+
+
+            <div class="price-box column-width-25">
+                <div class="price-header" style="background-color: #4292a9">
+                    <h3>Entry 5GB</h3>
+                    <p>za Svakog, a Najbolji za Školu...</p>
+                </div>
+                <div class="price-holder">
+                    <p>
+                        <span>123kn</span>
+                        <br>
+                        godišnje, PDV uključen
+                    </p>
+                </div>
+                <div class="price-package" style="background-color: #f5f5f5">
+                    <ul>
+                        <li><strong>1</strong> Domena na serveru</li>
+                        <li><strong>5</strong> GB RAID Diska Prostora</li>
+                        <li><strong>25600</strong> MB Prometa/mj.</li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                    </ul>
+                </div>
+                <div class="price-description">
+                    <ul>
+                        <li>HP Xeon Hardware</li>
+                        <li>cPanel Powered</li>
+                        <li>99.0% Uptime Garancija</li>
+                        <li>50 Email, 3 MySQL Baza i FTP 3 Parkirane domene</li>
+                    </ul>
+                </div>
+                <div class="price-cta-holder">
+                    <a href="#" title="" tagret="_blank" style="background-color: #4292a9">Naruči</a>
+                </div>
+            </div>
+
+
+            <div class="price-box column-width-25">
+                <div class="price-header" style="background-color: #923c8b">
+                    <h3>Entry 5GB</h3>
+                    <p>za Svakog, a Najbolji za Školu...</p>
+                </div>
+                <div class="price-holder">
+                    <p>
+                        <span>123kn</span>
+                        <br>
+                        godišnje, PDV uključen
+                    </p>
+                </div>
+                <div class="price-package" style="background-color: #f5f5f5">
+                    <ul>
+                        <li><strong>1</strong> Domena na serveru</li>
+                        <li><strong>5</strong> GB RAID Diska Prostora</li>
+                        <li><strong>25600</strong> MB Prometa/mj.</li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                        <li><strong>X</strong></li>
+                    </ul>
+                </div>
+                <div class="price-description">
+                    <ul>
+                        <li>HP Xeon Hardware</li>
+                        <li>cPanel Powered</li>
+                        <li>99.0% Uptime Garancija</li>
+                        <li>50 Email, 3 MySQL Baza i FTP 3 Parkirane domene</li>
+                    </ul>
+                </div>
+                <div class="price-cta-holder">
+                    <a href="#" title="" tagret="_blank" style="background-color: #923c8b">Naruči</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <!-- 
     Element name: Text Columns
@@ -118,6 +275,7 @@
         </div>
     </div>
 </section>
+
 
 
 <?php get_footer(); ?>
