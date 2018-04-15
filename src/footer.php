@@ -2,7 +2,7 @@
 			<footer class="footer" role="contentinfo">
 				<div class="footer-top full-width padding-normal ">
 					<div class="container" style="background-color: #2E4051">
-						<div class="row">
+						<div class="container-inner">
 							<div class="column">
 								<h3>Product</h3>
 								<ul>
@@ -72,10 +72,42 @@
 					</div>				
 				</div>
 
-				<div class="footer-bottom" style="background-color:#283544">
-				some test second row
-				</div>
+				<div class="footer-bottom full-width padding-small" style="background-color:#283544">
+					<div class="container">
+						<div class="container-inner">
+							<div class="column-left">
+								<div class="logo">
+									<a href="<?php echo esc_url( home_url() ); ?>">
+										<!--<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img"> -->
+										<i class="fas fa-rocket"></i> Budi<span>Online</span>
+									</a>								
+								</div>
+								<div class="text">
+									<p>The World's Leading Web Hosting Automation Platform <br class="hidden-br" />Registered in England & Wales #6265962 (VAT GB 927 774 676)</p>
+								</div>
 
+							</div>
+							<div class="column-right">
+								<div class="cards">
+									<img src="<?php echo get_template_directory_uri() ?>/img/icons/visa.svg" alt="">
+									<img src="<?php echo get_template_directory_uri() ?>/img/icons/mastercard.svg" alt="">
+									<img src="<?php echo get_template_directory_uri() ?>/img/icons/amex.svg" alt="">
+									<img src="<?php echo get_template_directory_uri() ?>/img/icons/norton.svg" alt="">
+								</div>
+
+								<div class="links">
+									<ul class="footer-nav">
+										<li class="link"><a href="">About</a></li>
+										<li class="link"><a href="">Privacy Policy</a></li>
+										<li class="link"><a href="">Terms of Service</a></li>
+										<li class="link"><a href="">Legal</a></li>
+										<li class="link"><a href="">Contact</a></li>
+									</ul>
+									<p>Copyright © <?php echo date('Y'); ?> BudiOnline. All rights reserved</p>
+								</div>
+							</div>
+						</div>
+					</div>
 			</footer>
 			<!-- /footer -->
 <!--
