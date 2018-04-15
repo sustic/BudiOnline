@@ -2,6 +2,243 @@
  * partials/footer
  * ---
  */
-
-
-.footer {}
+.footer {
+    .footer-top {
+        .container {        
+            .container-inner {
+                width: 95%;
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                .column-width-100 {
+                    flex-basis: 100%;
+                    @media only screen and (max-width: 768px){
+                        flex-basis: 50%;
+                        margin-bottom: 20px;
+                    }
+                }
+                .column-width-50 {
+                    flex-basis: 50%;
+                }
+                .column-width-33 {
+                    flex-basis: 33.33%;
+                    @media only screen and (max-width: 768px){
+                        flex-basis: 50%;
+                        margin-bottom: 20px;
+                    }
+                }
+                .column-width-16 {
+                    flex-basis: 16.667%;
+                    @media only screen and (max-width: 768px){
+                        flex-basis: 50%;
+                        margin-bottom: 20px;
+                    }
+                }
+                .column-width-16x2 {
+                    flex-basis: 33.334%;
+                    @media only screen and (max-width: 768px){
+                        flex-basis: 100%;
+                        order: 10;
+                    }
+                }
+                .column-width-16, .column-width-16x2, .column-width-100, .column-width-50, .column-width-33 {
+                    padding: 0 15px;    
+                    margin-bottom: 20px;            
+                    h1, h2, h3, h4 {
+                        color: #cad3dc;                        
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #445a71;
+                        font-family: 'ralewaybold';
+                        font-weight: 400;
+                    }
+                    h1{
+                        font-size: 20px;                       
+                     }
+                    h2{
+                        font-size: 18px;                       
+                     }
+                    h3{
+                        font-size: 16px;
+                     }
+                    h4{
+                       font-size: 14px;
+                    }
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    a {
+                        color: #8ea7bf;
+                        text-decoration: none;
+                        transition: all 0.2s;
+                        font-size: 14px;
+                        line-height: 1.7;
+                        font-family: 'open_sansregular';
+                        &:hover{
+                            cursor: pointer;
+                            color: white;
+                        }
+                    }
+                    .row-inner {
+                        display: flex;
+                        justify-content: space-between;
+                        .column-width-50 {
+                            flex-basis: 50%;
+                            padding: 0 15px;
+                            margin-left: -15px;
+                            margin-right: -15px;
+                            @media only screen and (max-width: 768px){
+                                margin-right: 0;
+                                order: 10;
+                            }
+                        }
+                    }    
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        .container {
+            .container-inner{
+                width: 95%;
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                @media only screen and (max-width: 768px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .column-left {
+                    display: flex; 
+                    flex-direction: column;                      
+                    justify-content: flex-start;      
+                    padding-left: 15px;  
+                    @media only screen and (max-width: 768px) {
+                        padding-left: 0;
+                    }                                      
+                    .logo {    
+                        height: 30px;                
+                        a{                                                   
+                            font-family: 'open_sansbold';
+                            color: white;
+                            line-height: 30px;                           
+                            font-size: 30px;
+                            transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;    
+                            margin: 0;
+                            padding: 0;                    
+                            &:hover, &:focus, &:active{
+                                text-decoration: none;
+                            }
+                            span{
+                                color: white;
+                                transition: color 0.2s ease-in-out;
+                            }
+                        }
+                        @media only screen and (max-width: 768px) {
+                            text-align: center;
+                        }
+                        
+                    }
+                    .text { 
+                        margin-top: 20px;                      
+                        p{
+                            color: #707e8c;
+                            font-size: 12px;
+                            margin: 0;
+                            line-height: 1.7;
+                            @media only screen and (max-width: 768px) {
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            .hidden-br{
+                                @media only screen and (max-width: 768px) {
+                                    display: none;
+                                }
+                            }                            
+                        }
+                    }
+                }
+                .column-right{
+                    display: flex;   
+                    flex-direction: column;   
+                    padding-right: 15px; 
+                    @media only screen and (max-width: 768px) {
+                        padding-right: 0;
+                    }
+                    .cards{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;  
+                        line-height: 38px;                                              
+                        img{
+                            width: 100%;
+                            max-width: 48px;
+                            margin-left: 5px;
+                        }
+                        @media only screen and (max-width: 768px) {
+                            justify-content: center;
+                            margin-top: 20px;
+                        }
+                    }
+                    .links {
+                        margin-top: 20px;
+                        display: flex;                        
+                        flex-direction: column;                        
+                        p{
+                            color: #707e8c;
+                            font-size: 12px;
+                            line-height: 1.7;
+                            margin: 0;
+                            align-self: flex-end;
+                            @media only screen and (max-width: 768px) {
+                                align-self: center;                               
+                            } 
+                        }
+                        .footer-nav{
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;   
+                            justify-content: flex-end;
+                            @media only screen and (max-width: 768px) {
+                                justify-content: center;                               
+                            }
+                            .link {
+                                &:first-child {                                    
+                                    &:before {
+                                        content: '';
+                                    }
+                                }
+                                &:before {
+                                    content: ' | ';
+                                    margin-left: 10px;
+                                    margin-right: 5px;
+                                    color: #707e8c; 
+                                }                                                              
+                                a {
+                                    color: #707e8c;
+                                    text-decoration: none;
+                                    transition: all 0.2s;
+                                    font-size: 12px;
+                                    line-height: 1.7;
+                                    font-family: 'open_sansregular';
+                                    &:hover{
+                                        cursor: pointer;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }               
+            }
+        }
+    }
+}
