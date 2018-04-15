@@ -43,19 +43,28 @@
                 .price-header{
                     text-align: center;
                     border-radius: 8px 8px 0 0;
-                    padding: 20px 10px;
+                    padding: 20px;
                     color: white;
                     h1, h2, h3, h4, h5, h6{
                         padding: 0;
                         margin: 0;
                         font-family: 'ralewaybold';
                         font-size: 28px;
+                        @media screen and (max-width: 1200px) {
+                            font-size: 23px;
+                        }
                     }
                     p{
                         padding: 0;
                         margin: 0;
                         font-family: 'open_sansregular';
                         margin-bottom: 10px;
+                        @media screen and (max-width: 1200px) {
+                            font-size: 13px;
+                        }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        padding: 10px;
                     }
                 }
                 .price-holder{
@@ -66,12 +75,21 @@
                         font-family: 'open_sansregular';
                         color: #a9a7a7;
                         margin: 0;
+                        @media screen and (max-width: 1200px) {
+                            font-size: 13px;
+                        }
                         span{
                             font-family: 'open_sansbold';
                             font-size: 45px;
+                            @media screen and (max-width: 1200px) {
+                                font-size: 35px;
+                            }
                             line-height: 1;
                             color: black;
                         }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        padding: 10px;
                     }
                 }
                 .price-package{
@@ -88,7 +106,13 @@
                             text-align: center;
                             font-size: 16px;
                             font-family: 'open_sansregular';
+                            @media screen and (max-width: 1200px) {
+                                font-size: 14px;
+                            }
                         }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        padding: 10px;
                     }
                 }
                 .price-description{
@@ -105,7 +129,13 @@
                             text-align: center;
                             font-size: 13px;
                             font-family: 'ralewayregular';
+                            @media screen and (max-width: 1200px) {
+                                font-size: 12px;
+                            }
                         }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        padding: 10px;
                     }
                 }
                 .price-cta-holder{
@@ -116,7 +146,8 @@
                         height: auto;
                         text-align: center;
                         font-size: 25px;
-                        font-family: 'open_sansbold';
+                        line-height: 1.8;
+                        font-family: 'ralewayregular';
                         margin: 0 auto;
                         background: #62acc6;
                         border-radius: 8px;
@@ -128,6 +159,26 @@
                             text-decoration: none;
                             color: white;
                         }
+                        @media screen and (max-width: 1200px) {
+                            font-size: 23px;
+                        }
+                    }
+                    @media screen and (max-width: 1200px) {
+                        padding: 10px;
+                    }
+                }
+                @media screen and (max-width: 960px) {
+                    width: 44%;
+                    margin: 3%;
+                    &:hover, &.active{
+                        transform: scale(1)
+                    }
+                }
+                @media screen and (max-width: 580px) {
+                    width: 100%;
+                    margin: 2% 0;
+                    &:hover, &.active{
+                        transform: scale(1)
                     }
                 }
             }

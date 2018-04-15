@@ -80,12 +80,13 @@
     Awailable options:
         CSS:
             width:    full-width, narrow-width
+            state:    active, color, button color
 -->
-<section class="price-table full-width padding-normal">
+<section class="price-table full-width padding-fat">
     <div class="container" style="background-color:white; border-bottom: 1px solid #ccc">
         <div class="container-inner">
 
-            <div class="price-box column-width-25">
+            <div class="price-box active">
                 <div class="price-header" style="background-color: #ef4f52">
                     <h3>Entry 5GB</h3>
                     <p>za Svakog, a Najbolji za Školu...</p>
@@ -121,7 +122,7 @@
             </div>
 
 
-            <div class="price-box column-width-25">
+            <div class="price-box">
                 <div class="price-header" style="background-color: #3ca77f">
                     <h3>Entry 5GB</h3>
                     <p>za Svakog, a Najbolji za Školu...</p>
@@ -157,7 +158,7 @@
             </div>
 
 
-            <div class="price-box column-width-25">
+            <div class="price-box">
                 <div class="price-header" style="background-color: #4292a9">
                     <h3>Entry 5GB</h3>
                     <p>za Svakog, a Najbolji za Školu...</p>
@@ -193,7 +194,7 @@
             </div>
 
 
-            <div class="price-box column-width-25">
+            <div class="price-box">
                 <div class="price-header" style="background-color: #923c8b">
                     <h3>Entry 5GB</h3>
                     <p>za Svakog, a Najbolji za Školu...</p>
@@ -248,6 +249,10 @@
 <section class="text-columns full-width padding-normal">
     <div class="container" style="background-color:#f5f5f5;">
         <div class="container-inner">
+            <div class="column-width-100 text-center">
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
+            </div> 
             <div class="column-width-50">
                 <h4>Lorem ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, eaque veritatis natus nobis architecto, quibusdam atque quos perferendis, rerum provident iure! Blanditiis quibusdam iste facilis quo itaque asperiores nihil quaerat.</p>
