@@ -1,9 +1,26 @@
 			<!-- footer -->
+			<!-- 
+				Element name: Footer
+				Awailable options:
+					CSS:
+						width:    full-width, narrow-width						
+						padding:  padding-fat, padding-normal, padding-small, padding-tiny
+						text:     text-left, text-center, text-right
+						background-color
+						columns: column -> 16.667%
+								 column-double -> 33.334%
+								 
+					HTML:
+						h3, strong, b, i, a
+					a:
+						target="_blank" ***** To open link on a new tab *****
+			-->
+
 			<footer class="footer" role="contentinfo">
 				<div class="footer-top full-width padding-normal ">
 					<div class="container" style="background-color: #2E4051">
 						<div class="container-inner">
-							<div class="column">
+							<div class="column text-left">
 								<h3>Product</h3>
 								<ul>
 									<li><a href="#">Tour</a></li>
@@ -13,7 +30,7 @@
 									<li><a href="#">Pricing</a></li>
 								</ul>
 							</div>
-							<div class="column">
+							<div class="column text-left">
 								<h3>Uses</h3>
 								<ul>
 									<li><a href="">Web Hosting</a></li>
@@ -24,7 +41,7 @@
 									<li><a href="">ISP Billing</a></li>
 								</ul>
 							</div>
-							<div class="column">
+							<div class="column text-left">
 								<h3>Support</h3>
 								<ul>
 									<li><a href="">Technical Support</a></li>
@@ -37,7 +54,7 @@
 							<div class="column-double">
 								<h3>Resources</h3>
 								<div class="row-inner">
-									<div class="column">
+									<div class="column text-left">
 										<ul>
 											<li><a href="">Free Tools</a></li>
 											<li><a href="">Marketplace</a></li>
@@ -47,7 +64,7 @@
 											<li><a href="">Developer Portal</a></li>
 										</ul>
 									</div>
-									<div class="column">
+									<div class="column text-left">
 										<ul>
 											<li><a href="">License Verification</a></li>
 											<li><a href="">Media Resources</a></li>
@@ -58,7 +75,7 @@
 									</div>									
 								</div>
 							</div>
-							<div class="column">
+							<div class="column text-left">
 								<h3>Company</h3>
 								<ul>
 									<li><a href="">About Us</a></li>
@@ -82,7 +99,7 @@
 										<i class="fas fa-rocket"></i> Budi<span>Online</span>
 									</a>								
 								</div>
-								<div class="text">
+								<div class="text text-left">
 									<p>The World's Leading Web Hosting Automation Platform <br class="hidden-br" />Registered in England & Wales #6265962 (VAT GB 927 774 676)</p>
 								</div>
 
