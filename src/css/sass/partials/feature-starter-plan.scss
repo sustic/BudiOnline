@@ -1,0 +1,60 @@
+/**
+ * partials/feature-starter-plan
+ * ---
+ */
+ .starter{
+     .container{     
+        .container-inner{
+            width:95%;
+            max-width: 750px;
+            margin: 0 auto 30px auto;
+            padding: 2.78571429em;
+            border: 1px solid #ececec;
+            overflow: hidden; 
+            h1, h2, h3, h4, .price{
+                margin: 0 0 10px 0;
+                padding: 0;
+                font-family: 'ralewayregular';
+                font-weight: 400;
+                line-height: 1.1;                
+                color: #2b79a7;
+            } 
+            h1, .h1{
+                font-size: 26px;
+            }
+            h2, .h2{
+                font-size: 24px;
+            }
+            h3, .h3{
+                font-size: 22px;
+            }
+            h4, .h4{
+                font-size: 20px;
+            } 
+            .price{
+                color: $text-color;                                
+            }
+            .pull-right{
+                float: right;                
+            } 
+            span{
+                font-size: 15px;
+                line-height: 1.7;
+                font-family: 'open_sansregular';
+                color: $text-color;
+                line-height: 1.7;
+            }
+            a{
+                color: #337ab7;
+                font-family: 'open_sansregular';
+                font-size: 15px;
+                text-decoration: none;
+                transition: all 0.2s;
+                &:hover{
+                    cursor: pointer;
+                    color: #285f8f;
+                }
+            }         
+        }
+    }
+ }

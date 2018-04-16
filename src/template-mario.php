@@ -153,6 +153,34 @@
     </div>
 </section>
 
+<!-- 
+    Element name: Feature Starter Plan
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width            
+            padding:  padding-fat, padding-normal, padding-small
+            price font-size: h1, h2, h3, h4
+            background-color
+            
+        HTML:
+            h1, h2, h3, h4,  strong, b, i, a
+        a:
+            target="_blank" ***** To open link on a new tab *****
+-->
+<section class="starter full-width padding-small">
+    <div class="container" style="background-color:#fefefe">
+        <div class="container-inner">
+            <span class="pull-right price h4"><strong>$99.99/mo</strong></span>
+            <h4>Starter</h4>            
+            <span>
+                Our Starter license offers a cheaper way to get started.<br />
+                Includes everything in Plus, along with a powered by branding link.
+                <a href="#" class="pull-right">Purchase Plan</a>
+            </span>
+        </div>
+    </div>
+</section>
+
 
 
 <?php get_footer(); ?>
