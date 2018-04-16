@@ -688,10 +688,9 @@
 .slider {
 	.container {
 		padding-left: 10%;
-		padding-right: 10%;
-	
+		padding-right: 10%;	
 		.main-slider {
-			max-width: 780px;
+			max-width: 740px;
 			width: 95%;
 			padding: 10px 20px;
 			margin: 0 auto;
@@ -700,19 +699,19 @@
 				padding-right: 20px;
 			}
 			.slick-next {
-				right:6px;
+				right: 55px;
 			}
 			.slick-prev {
-				left:-23px;
+				left: 26px;
 			}
 			.slick-prev:before, .slick-next:before {
 				font-size: 50px;
 				color: $text-color;
 			}
-			.slick-slide {
+			.slick-slide {				
 				&:focus {
-					display: none;
-				}
+					display: none;					
+				}								
 				h1, h2, h3, h4, h5 {
 					font-family: 'ralewayregular';
 					font-weight: 400;
@@ -742,8 +741,7 @@
 				}
 				h5 {
 					font-size: 17px;
-				}
-				
+				}				
 				p, blackquote {
 					font-family: 'open_sansregular';
 					font-weight: 400;
@@ -762,11 +760,13 @@
 					margin: 0;
 				}
 				blackquote {
+					display: block;	
 					font-size: 18px;
-				}
+					width: 85%;
+					margin: 0 auto;																						
+				}			
 			}
 		}
-
 	}
 }
 
