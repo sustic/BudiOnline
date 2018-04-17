@@ -181,6 +181,36 @@
     </div>
 </section>
 
+<!-- 
+    Element Name: Feature Get Started
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny   
+            background color
+        HTML:
+
+-->
+
+<section class="get-started full-width padding-small">
+    <div class="container" style="background-color:#ccc">
+        <div class="container-inner">
+            <div class="column-left">
+                <div class="column-left--left">
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </div>
+                <div class="column-left--right">
+                    <h4>Ready to <strong>get started?</strong></h4>
+                    <p>We're so confident you'll love our product, if you don't, we'll give you your money back!</p>
+                </div>
+            </div>
+            <div class="column-right">
+                <a href="#" class="btn">Tray it Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 <?php get_footer(); ?>
