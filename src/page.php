@@ -13,10 +13,29 @@
 
 				the_sub_field('code_element');
 
-			elseif( get_row_layout() == 'download' ): 
+			elseif( get_row_layout() == 'domain_search_element' ): 
+	?>
 
-				$file = get_sub_field('file');
+				<section class="domain-search full-width padding-normal">
+					<div class="container" style="background-color: #0084af;">
+						<div class="container-inner">
+							<div class="domain-search-sub-element form-holder" style="color: #003756">
+								<?php if ( get_sub_field('text') ) : ?>
+									<?php the_sub_field('text'); ?>
+								<?php endif; ?>
+								<?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="true"]' ); ?>
+							</div>
+							<div class="domain-search-sub-element image-holder">
+								<img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				
+					
 
+	<?php
 			endif;
 
 		endwhile;

@@ -281,6 +281,25 @@
     </div>
 </section>
 
-
+<!--
+    Element name: Domain search
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="domain-search full-width padding-normal">
+    <div class="container" style="background-color: #0084af;">
+        <div class="container-inner">
+            <div class="domain-search-sub-element form-holder" style="color: #003756">
+                <p style="color:white;"><b><span>Tražite domenu?</span><br>
+                Provjerite dali je slobodna :-)</b></p>
+                <?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="true"]' ); ?>
+            </div>
+            <div class="domain-search-sub-element image-holder">
+                <img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>

@@ -82,6 +82,116 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "5ad64691f8d70": {
+                    "key": "5ad64691f8d70",
+                    "name": "domain_search_element",
+                    "label": "Domain search element",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ad648a5f8d74",
+                            "label": "Element css classes",
+                            "name": "element_css_classes",
+                            "type": "text",
+                            "instructions": "full-width, narrow-width, normal-padding, small-padding..",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "full-width normal-padding",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ad648b2f8d75",
+                            "label": "Element inline css style",
+                            "name": "element_inline_css_style",
+                            "type": "text",
+                            "instructions": "Write here what would go inside quotemarks style=\" your-code\"",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "background: #fafcfc;",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ad6484ff8d71",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5ad6485ef8d72",
+                            "label": "Form ID",
+                            "name": "form_id",
+                            "type": "text",
+                            "instructions": "This is ID (number) of the domain search form.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ad6488bf8d73",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Element",
@@ -120,5 +230,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1522775668
+    "modified": 1524001894
 }

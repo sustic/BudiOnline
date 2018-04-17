@@ -1,0 +1,167 @@
+/**
+ * partials/feature-domain-search
+ * ---
+ */
+.domain-search{
+    .container{
+        .container-inner {
+            width: 95%;
+            padding-left: 10px;
+            padding-right: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            .form-holder{
+                position: relative;
+                width: 60%;
+                padding: 15px 0;
+                @media screen and (max-width: 1200px) {
+                    width: 70%;
+                }
+                @media screen and (max-width: 980px) {
+                    order: 1;
+                }
+                @media screen and (max-width: 750px) {
+                    width: 100%;
+                }
+                p{
+                    font-size: 28px;
+                    line-height: 1.2;
+                    font-family: 'open_sansregular';
+                    margin: 0;
+                    padding: 0;
+                    b, strong{
+                        font-family: 'open_sansbold';
+                    }
+                    @media screen and (max-width: 600px) {
+                        font-size: 20px;
+                    }
+                }
+                form{
+                    input[type='submit']{
+                        background: #7ac142;
+                        border: 0;
+                        border-radius: 8px;
+                        color: white;
+                        padding: 10px 50px;
+                        font-size: 18px;
+                        cursor: pointer;
+                        font-family: 'open_sansbold';
+                        &:focus, &:active{
+                            border: 0;
+                            outline: 0;
+                        }
+                        transform: scale(1);
+                        transition: transform 0.2s ease-in-out;
+                        &:hover{
+                            transform: scale(1.1)
+                        }
+                        @media screen and (max-width: 600px) {
+                            font-size: 15px;
+                            padding: 8px 30px;
+                        }
+                    }
+                }
+                
+                .validation_error{
+                    display: none;
+                }
+                .validation_message{
+                    display: none;
+                }
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    color: currentColor;
+                    li{
+                        color: currentColor;
+                       
+                        input[type='text']{
+                            font-size: 30px;
+                            color: currentColor;
+                            width: 80%;
+                            background: transparent;
+                            border: 0;
+                            border-bottom: 3px solid currentColor;
+                            padding: 5px;
+                            
+                            &::placeholder{
+                                font-family: 'open_sansregular';
+                                font-size: 20px;
+                                color: currentColor;
+                            }
+                            &:focus{
+                                outline: none;
+                                border: none;
+                                border-bottom: 3px solid currentColor;
+                            }
+                            @media screen and (max-width: 1024px) {
+                                width: 95%;
+                            }
+                            @media screen and (max-width: 600px) {
+                                font-size: 20px;
+                            }
+                        }
+                        &.gfield_error {
+                            input[type='text']{
+                                border-bottom: 3px solid #ff6464;
+                            }
+                        }
+                        .gfield_label{
+                            display: none;
+                        }
+                        ul{
+                            margin: 15px 0;
+                            li{
+                                display: inline;
+                                margin-left: 5%;
+                                &:first-child{
+                                    margin-left: 0;
+                                }
+                                input{
+                                    cursor: pointer;
+                                }
+                                label{
+                                    font-size: 20px;
+                                    margin-left: 5px;
+                                    font-family: 'ralewaybold';
+                                    cursor: pointer;
+                                    @media screen and (max-width: 600px) {
+                                        font-size: 15px;
+                                    }
+                                }
+                                @media screen and (max-width: 600px) {
+                                    margin-left: 2%;
+                                }
+                                @media screen and (max-width: 380px) {
+                                    display: block;
+                                    margin-left: 0%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .image-holder{
+                width: 40%;
+                padding: 15px 0;
+                @media screen and (max-width: 1200px) {
+                    width: 30%;
+                }
+                @media screen and (max-width: 980px) {
+                    order: 0;
+                    width: 45%;
+                }
+                @media screen and (max-width: 680px) {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
