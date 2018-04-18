@@ -302,4 +302,63 @@
     </div>
 </section>
 
+
+
+
+<!--
+    Element name: Table
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="table full-width padding-normal">
+    <div class="container">
+        <div class="container-inner">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Shared web hosting paketi</th>
+                        <th>1 god.</th>
+                        <th>2 god.<span>ušteda 10%</span></th>
+                        <th>3 god.<span>ušteda 15%</span></th>
+                        <th>4 god.<span>ušteda 20%</span></th>
+                        <th>5 god.<span>ušteda 25%</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sprint Classic</td>
+                        <td>450,00 Kn</td>
+                        <td>810,00 Kn</td>
+                        <td>1.147,50 Kn</td>
+                        <td>1.440,00 Kn</td>
+                        <td>1.687,50 Kn</td>
+                    </tr>
+                    <tr>
+                        <td>Sprint Extended</td>
+                        <td>575,00 Kn</td>
+                        <td>1.035,00 Kn</td>
+                        <td>1.466,25 Kn</td>
+                        <td>1.840,00 Kn</td>
+                        <td>2.156,25 Kn</td>
+                    </tr>
+                    <tr>
+                        <td>Sprint Advanced</td>
+                        <td>700,00 Kn</td>
+                        <td>1.180,00 Kn</td>
+                        <td>1.770,00 Kn</td>
+                        <td>2.240,00 Kn</td>
+                        <td>2.625,00 Kn</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
 <?php get_footer(); ?>

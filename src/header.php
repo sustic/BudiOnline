@@ -27,8 +27,10 @@
 			<div class="container">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
-						<!--<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img"> -->
-						<i class="fas fa-rocket"></i> Budi<span>Online</span>
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" class="logo-img dark-logo">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" class="logo-img">
+						
+						<!-- <i class="fas fa-rocket"></i> Budi<span>Online</span> -->
 					</a>
 				</div>
 				<nav class="nav" role="navigation">
