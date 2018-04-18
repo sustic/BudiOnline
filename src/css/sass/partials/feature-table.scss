@@ -11,6 +11,147 @@
             padding-right: 10px;
             max-width: 1200px;
             margin: 0 auto;
+            @media screen and (max-width: 1100px) {
+                overflow-x: scroll;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 60px;
+                &:nth-of-type(1){
+                    margin-top: 0px;
+                }
+                
+                thead{
+                    text-align: left;
+                    tr{
+                        td, th{
+                            background: white;
+                            transition: background-color 0.2s ease-in-out;
+                            text-align: right;
+                            padding: 5px;
+                            font-size: 14px;
+                            font-family: 'ralewaybold';
+                            span.discount-label{
+                                color: #7ac142;
+                                margin-left: 5px;
+                            }
+                            span.table-title{
+                                font-size: 20px;
+                            }
+                            font-weight: normal;
+                            &.text-left{
+                                text-align: left;
+                            }
+                            
+                        }
+                    }
+                }
+                tr{
+                    transition: background-color 0.2s ease-in-out;
+                    border-bottom: 1px solid #ccc;
+                    &:nth-child(odd){
+                        td{
+                            transition: background-color 0.2s ease-in-out;
+                            &:nth-child(even){
+                                background-color: #F8F8F8;
+                            }
+                            &:nth-child(odd){
+                                background-color: 	#F0F0F0;
+                            }
+                        }
+                    }
+                    &:nth-child(even){
+                        td{
+                            transition: background-color 0.2s ease-in-out;
+                            &:nth-child(even){
+                                background-color: #E0E0E0;
+                            }
+                            &:nth-child(odd){
+                                background-color: #D8D8D8;
+                            }
+                        }
+                    }
+                    &:hover{
+                        td{
+                            background-color: #A8A8A8!important;
+                        }
+                    }
+                    td{
+                        padding: 5px;
+                        text-align: right;
+                        &.text-left{
+                            text-align: left;
+                        }
+                        .ribbon {
+                            position: relative;
+                            display: inline-block;
+                            font-size: 11px;
+                            color: #fff;
+                            font-weight: 700;
+                            padding: 2px 6px;
+                            margin-left: -18px;
+                            margin-right: 6px;
+                            border-top-right-radius: 4px;
+                            border-bottom-right-radius: 4px;
+                            &:after{
+                                position: absolute;
+                                content: '';
+                                top: 100%;
+                                left: 0;
+                                background-color: transparent!important;
+                                border-style: solid;
+                                border-width: 0 7px 5px 0;
+                                border-color: transparent;
+                                border-right-color: inherit;
+                                width: 0;
+                                height: 0;
+                            }
+                            &.green {
+                                background: #228b22;
+                                border-color: #124012;
+                            }
+                            &.red {
+                                background: #C00;
+                                border-color: #700;
+                            }
+                            &.orange {
+                                background: orange;
+                                border-color: #d67f16;
+                                text-shadow: 0 1px 0 rgba(0,0,0,.3);
+                            }
+                        }
+                        span{
+                            &.cross{
+                                position: relative;
+                                &:after{
+                                    content: " ";
+                                    opacity: .5;
+                                    position: absolute;
+                                    border: 2px solid #c00;
+                                    left: -5px;
+                                    bottom: 5px;
+                                    right: 0;
+                                    transform: rotate(10deg);
+                                }
+                                &:before{
+                                    content: " ";
+                                    opacity: .5;
+                                    position: absolute;
+                                    border: 2px solid #c00;
+                                    left: -5px;
+                                    bottom: 5px;
+                                    right: 0;
+                                    transform: rotate(-10deg);
+                                }
+                            }
+                        }
+                    }
+                }
+                @media screen and (max-width: 1200px) {
+                    min-width: 1000px;
+                }
+            }
         }
     }
 }

@@ -317,25 +317,25 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Shared web hosting paketi</th>
+                        <th class="text-left"><span class="table-title">Shared web hosting paketi</span></th>
                         <th>1 god.</th>
-                        <th>2 god.<span>ušteda 10%</span></th>
-                        <th>3 god.<span>ušteda 15%</span></th>
-                        <th>4 god.<span>ušteda 20%</span></th>
-                        <th>5 god.<span>ušteda 25%</span></th>
+                        <th>2 god.<span class="discount-label">ušteda 10%</span></th>
+                        <th>3 god.<span class="discount-label">ušteda 15%</span></th>
+                        <th>4 god.<span class="discount-label">ušteda 20%</span></th>
+                        <th>5 god.<span class="discount-label">ušteda 25%</span></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Sprint Classic</td>
+                        <td class="text-left"><div class="ribbon green" style="margin-left:-12px">Akcija</div> Sprint Classic</td>
                         <td>450,00 Kn</td>
-                        <td>810,00 Kn</td>
-                        <td>1.147,50 Kn</td>
+                        <td>Promo</div>810,00 Kn</td>
+                        <td><span class="cross">1.147,50 Kn</span> 599,00 Kn</td>
                         <td>1.440,00 Kn</td>
                         <td>1.687,50 Kn</td>
                     </tr>
                     <tr>
-                        <td>Sprint Extended</td>
+                        <td class="text-left"><div class="ribbon red" style="margin-left:-12px">Proba</div>Sprint Extended</td>
                         <td>575,00 Kn</td>
                         <td>1.035,00 Kn</td>
                         <td>1.466,25 Kn</td>
@@ -343,7 +343,7 @@
                         <td>2.156,25 Kn</td>
                     </tr>
                     <tr>
-                        <td>Sprint Advanced</td>
+                        <td class="text-left"><div class="ribbon orange" style="margin-left:-12px">Uskoro</div>Sprint Advanced</td>
                         <td>700,00 Kn</td>
                         <td>1.180,00 Kn</td>
                         <td>1.770,00 Kn</td>
