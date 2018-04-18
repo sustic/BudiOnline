@@ -1,0 +1,111 @@
+/**
+* partials/feature-get-started
+* ---
+*/
+.get-started{
+    .container{
+        .container-inner{
+            width: 95%;
+            max-width: 1200px;
+            padding: 0 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;    
+            @media only screen and (max-width: 768px) {
+                flex-direction: column;                
+            }        
+            .column-left{
+                display: flex;                 
+                align-items: center;  
+                flex-basis: 76%;
+                @media only screen and (max-width: 768px){
+                    flex-basis: 100%;
+                }
+                .column-left--left{                    
+                    font-size: 72px;
+                    color: #aaa;
+                    margin-right: 20px;
+                }
+                .column-left--right{
+                    h1, h2, h3, h4 {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'ralewayregular';
+                        font-weight: 400;                        
+                        line-height: 1.1;
+                        color: #2b79a7;
+                    }
+                    h1{                        
+                        font-size: 42px;                        
+                        @media only screen and (max-width: 768px){
+                            font-size: 36px; 
+                        }   
+                    }
+                    h2{                        
+                        font-size: 40px;                        
+                        @media only screen and (max-width: 768px){
+                            font-size: 34px; 
+                        }   
+                    }
+                    h3{                        
+                        font-size: 38px;                        
+                        @media only screen and (max-width: 768px){
+                            font-size: 32px; 
+                        }   
+                    }
+                    h4{                        
+                        font-size: 36px;                        
+                        @media only screen and (max-width: 768px){
+                            font-size: 30px; 
+                        }   
+                    }
+                    p{
+                        margin: 0;
+                        font-family: 'open_sansregular';
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 1.7;
+                        color: $text-color;
+                        @media only screen and (max-width: 768px) {
+                            margin-bottom: 20px;
+                        } 
+                    }
+                }             
+            }
+            .column-right{
+                flex-basis: 22%;                
+                display: flex;
+                justify-content: flex-end;
+                @media only screen and (max-width: 991px){
+                    flex-basis: 40%;
+                }
+                @media only screen and (max-width: 768px){
+                    display: block;
+                    width: 100%;               
+                }
+                a{  
+                    display: block;                  
+                    background-color: #4dac02;
+                    color: #fff;
+                    padding: 11px 48px;
+                    border-radius: 4px;                    
+                    font-family: 'open_sansregular';
+                    font-weight: 400;
+                    line-height: 1.7;
+                    font-size: 15px; 
+                    text-decoration: none;
+                    transition: all 0.2s; 
+                    @media only screen and (max-width: 768px){
+                        font-size: 18px;   
+                        text-align: center;            
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        text-decoration: none;
+                    }                                      
+                }               
+            }
+        }
+    }
+}
