@@ -7,10 +7,13 @@
         .container-inner{
             width:95%;
             max-width: 750px;
-            margin: 0 auto 30px auto;
-            padding: 2.78571429em;
+            margin: 0 auto;
+            padding: 40px;
             border: 1px solid #ececec;
             overflow: hidden; 
+            @media only screen and (max-width: 768px) {
+                padding: 20px;
+            }
             h1, h2, h3, h4, .price{
                 margin: 0 0 10px 0;
                 padding: 0;

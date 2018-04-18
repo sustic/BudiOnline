@@ -485,6 +485,7 @@
 		}
 	}
 }
+
 @media only screen and (max-width:991px) {
 	.heading-with-tabs .container .container-inner .content-holder{
 		h1{
@@ -567,6 +568,22 @@
 		}
 	}
 }
+
+@media only screen and (max-width:480px) {
+	.heading-with-tabs {
+		.heading-tab-container{
+			.container-inner {
+				nav {
+					ul{
+						li{
+							width: 100%;
+						}
+					}
+				} 
+			}
+		}
+	}
+} 
 
 .zig-zag {
 	.container {
@@ -655,21 +672,6 @@
 	}
 }
 
-@media only screen and (max-width:480px) {
-	.heading-with-tabs {
-		.heading-tab-container{
-			.container-inner {
-				nav {
-					ul{
-						li{
-							width: 100%;
-						}
-					}
-				} 
-			}
-		}
-	}
-} 
 @media only screen and (max-width:991px) {
 	.zig-zag {
 		.row{
@@ -685,6 +687,25 @@
 		}
 	}
 }
+
+@media only screen and (max-width:768px) {
+	.zig-zag {
+		.container {
+			.row-center, .row-top {
+				flex-direction: column;
+				align-items: center;
+			}
+			.column-img {
+				margin-bottom: 20px;
+				img {
+					max-width: 90px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
 .slider {
 	.container {
 		padding-left: 10%;
@@ -703,6 +724,7 @@
 			}
 			.slick-prev {
 				left: 26px;
+				z-index: 9999;
 			}
 			.slick-prev:before, .slick-next:before {
 				font-size: 50px;
@@ -793,24 +815,6 @@
 	}
 }
 
-
-@media only screen and (max-width:768px) {
-	.zig-zag {
-		.container {
-			.row-center, .row-top {
-				flex-direction: column;
-				align-items: center;
-			}
-			.column-img {
-				margin-bottom: 20px;
-				img {
-					max-width: 90px;
-					width: 100%;
-				}
-			}
-		}
-	}
-}
 @media only screen and (max-width:768px) {
 	.slider {
 		.container {
@@ -820,6 +824,11 @@
 				}
 				.slick-prev {
 					left:-23px;
+				}
+				.slick-slide{
+					blackquote{
+						width: 100%;
+					}
 				}
 			}
 		}
