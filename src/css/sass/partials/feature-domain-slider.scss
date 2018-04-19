@@ -1,0 +1,45 @@
+/**
+ * partials/feature-domain-slider
+ * ---
+ */
+.section-domain-slider{
+    .container{
+        .container-inner{
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 10px;
+            display: flex;            
+            align-items: center;
+            .width-16{
+                width: 195px;
+                padding: 0 15px;
+                height: 100px;                
+                .domain-item{
+                    background-color: white;                    
+                    height: 100%;
+                    padding: 5px 15px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;                                                     
+                    .domain-name{
+                        font-family: 'ralewaybold';
+                        font-weight: 700;
+                        font-size: 30px;
+                        color: #2b79a7;
+                        margin-top: 5px;
+                        margin-bottom: 8px;
+                        padding: 0;
+                    } 
+                    .domain-price {
+                        margin: 0;
+                        font-family: 'open_sansregular';
+                        font-weight: 400;
+                        color: #000;
+                        font-size: 15px;
+                    }                  
+                }
+            }
+        }
+    }
+}

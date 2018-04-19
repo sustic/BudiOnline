@@ -217,5 +217,47 @@
 </section>
 
 
+<section class="section-domain-slider full-width padding-normal">
+    <div class="container" style="background-color:#e9e9e9">
+        <div class="container-inner">
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.com</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div>
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.net</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div> 
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.com.hr</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div> 
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.eu</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div> 
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.org</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div> 
+            <div class="width-16 text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.hr</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>
