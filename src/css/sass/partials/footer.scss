@@ -151,6 +151,9 @@
                                 color: white;
                                 transition: color 0.2s ease-in-out;
                             }
+                            img{
+                                width: 150px;
+                            }
                         }
                         @media only screen and (max-width: 768px) {
                             text-align: center;

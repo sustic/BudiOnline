@@ -30,7 +30,7 @@
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" class="logo-img dark-logo">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" class="logo-img">
 						
-						<!-- <i class="fas fa-rocket"></i> Budi<span>Online</span> -->
+						<i class="fas fa-rocket" style="display:none"></i>
 					</a>
 				</div>
 				<nav class="nav" role="navigation">

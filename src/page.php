@@ -31,11 +31,8 @@
 						</div>
 					</div>
 				</section>
-				
-				
-					
 
-	<?php
+		<?php
 			endif;
 
 		endwhile;
