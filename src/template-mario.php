@@ -197,7 +197,7 @@
 
 -->
 
-<section class="get-started full-width padding-small">
+<section class="get-started fulls-width padding-small">
     <div class="container" style="background-color:#F6F6F6">
         <div class="container-inner text-left">
             <div class="column-left">
@@ -216,46 +216,63 @@
     </div>
 </section>
 
+<!-- 
+    Element Name: Feature Domain Slider
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny   
+            text-aligment: text-left, text-center, text-right
+            background color
+        HTML:
+            p  
+-->
 
 <section class="section-domain-slider full-width padding-normal">
     <div class="container" style="background-color:#e9e9e9">
-        <div class="container-inner">
-            <div class="width-16 text-center">
+        <div class="domain-slider">                  
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.com</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
-            </div>
-            <div class="width-16 text-center">
+            </div>            
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.net</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
             </div> 
-            <div class="width-16 text-center">
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.com.hr</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
-            </div> 
-            <div class="width-16 text-center">
+            </div>
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.eu</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
             </div> 
-            <div class="width-16 text-center">
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.org</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
             </div> 
-            <div class="width-16 text-center">
+            <div class="column text-center">
                 <div class="domain-item">
                     <p class="domain-name">.hr</p>
                     <p class="domain-price">kn 99.00/god</p>
                 </div>
-            </div>  
+            </div>     
+            <div class="column text-center">
+                <div class="domain-item">
+                    <p class="domain-name">.hr</p>
+                    <p class="domain-price">kn 99.00/god</p>
+                </div>            
+            </div>               
         </div>
     </div>
 </section>
