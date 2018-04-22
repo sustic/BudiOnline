@@ -58,7 +58,7 @@
 				adaptiveHeight: true
 			});
 			$( '.domain-slider' ).slick({
-				speed: 400,				
+				speed: 400,
 				autoplay: true,
 				arrows: false,
 				slidesToShow: 6,
@@ -68,45 +68,45 @@
 						breakpoint: 1400,
 						settings:
 						{
-							arrows:false
+							arrows: false
 						}
 					},
 					{
 						breakpoint: 1300,
 						settings: {
 							slidesToShow: 5,
-							arrows:false
+							arrows: false
 						}
 					},
 					{
 						breakpoint: 1217,
 						settings: {
 							slidesToShow: 4,
-							arrows:false
+							arrows: false
 						}
 					},
 					{
 						breakpoint: 991,
 						settings: {
 							slidesToShow: 3,
-							arrows:false
+							arrows: false
 						}
 					},
 					{
 						breakpoint: 768,
 						settings: {
 							slidesToShow: 2,
-							arrows:false
+							arrows: false
 						}
 					},
 					{
 						breakpoint: 500,
 						settings: {
 							slidesToShow: 1,
-							arrows:false
+							arrows: false
 						}
 					}
-				]				
+				]
 			});
 		});
 	});
