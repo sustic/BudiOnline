@@ -31,6 +31,9 @@ var gulp = require( 'gulp' ),
 		/** Fontawesome */
 		'src/js/lib/fontawesome-all.min.js',
 
+		/** Aos */
+		'src/js/lib/aos.min.js',
+
 		/** Page scripts */
 		'src/js/scripts.js'
 	],
@@ -67,6 +70,9 @@ var gulp = require( 'gulp' ),
 
 			/** Fontawesome */
 			'src/css/lib/fa-svg-with-js.css',
+
+			/** Aos */
+			'src/css/lib/aos.min.css',
 
 			/** Theme style */
 			'src/css/style.css'

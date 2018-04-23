@@ -10,13 +10,17 @@
 		while ( have_rows('elements') ) : the_row();
 
 			if( get_row_layout() == 'free_code_element' ):
+	?>
 
-				the_sub_field('code_element');
+				<div data-aos="fade-up">
+					<?php the_sub_field('code_element');?>
+				</div>
 
+	<?php
 			elseif( get_row_layout() == 'domain_search_element' ): 
 	?>
 
-				<section class="domain-search full-width padding-normal">
+				<section class="domain-search full-width padding-normal" data-aos="fade-up">
 					<div class="container" style="background-color: #0084af;">
 						<div class="container-inner">
 							<div class="domain-search-sub-element form-holder" style="color: #003756">

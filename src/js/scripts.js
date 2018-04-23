@@ -111,6 +111,19 @@
 		});
 	});
 
+	$( document ).ready( function() {
+		AOS.init({
+			startEvent: 'load',
+			duration: 1200,
+			once: true
+		});
+	});
+
+
+	$( window ).on( 'load', function() {
+		AOS.refresh();
+	});
+
 } ( this, jQuery ) );
 
 function initMap() {
@@ -175,3 +188,4 @@ function initMap() {
 	map.setCenter( varlatlngbounds.getCenter() );
 	map.fitBounds( varlatlngbounds );
 }
+
