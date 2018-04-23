@@ -25,10 +25,15 @@
         padding-right: 10px;
         position: relative;
         .logo{
+            a{
+                display: block;
+                line-height: 60px;
+
+            }
             img{
                 width: 150px;
                 opacity: 1;
-                transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out;
+                transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out, width 0.2s ease-in-out;
                 margin-top: -10px;
                 &.dark-logo{
                     opacity: 0;
@@ -56,7 +61,7 @@
             padding: 8px 15px;
             margin-left: 13px;
             opacity: 1;
-            transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+            transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, padding 0.2s ease-in-out;
             &:hover{
                 background-color: $dark-green;
                 border: 1px solid $hilight-green;
@@ -76,6 +81,7 @@
             list-style: none;
             float: left;
             padding: 0;
+            transition: margin 0.2s ease-in-out;
             li{
                 float: left;
                 margin-right: 20px;
@@ -148,7 +154,7 @@
             font-family: 'open_sansbold';
             color: white;
             font-size: 40px;
-            transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;
+            transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out, line-height 0.2s ease-in-out;
             &:hover, &:focus, &:active{
                 text-decoration: none;
             }
@@ -162,34 +168,44 @@
         background: white!important;
         border-bottom: 1px solid lightgrey;
         #menu_icon{
-            margin-top: 8px;
+            margin-top: 3px;
         }
         .cta-menu-holder{
-            margin-top: 12px;
+            margin-top: 8px;
             .header-login-link{
                 color: $blue;
+            }
+            .header-cta-link{
+                padding: 1px 15px;
             }
         }
         .nav{
             padding-top: 0;
-            li{
-                color: grey;
-                a{
+            ul{
+                margin: 9px 0 0 0;
+                li{
                     color: grey;
+                    a{
+                        color: grey;
+                    }
+                    ul{
+                        margin-top: 0;
+                    }
                 }
             }
+            
         }
         .logo {
             a{
                 font-size:30px;
                 color: $dark-blue;
+                line-height: 35px;
                 span{
                  color: $dark-blue;   
                 }
                 img{
-                    width: 150px;
+                    width: 100px;
                     opacity: 0;
-                    transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out;
                     &.dark-logo{
                         opacity: 1;
                         position: absolute;
@@ -267,8 +283,8 @@
         }
         &.scrolled-nav{
             .nav{
-                top: 46px;
-                height: calc(100% - 46px);
+                top: 36px;
+                height: calc(100% - 36px);
                 ul{
                     li{
                         a{
@@ -300,11 +316,11 @@
     }
     .header .logo a {
         font-size: 25px;
-        line-height: 2.4;
+        line-height: 2;
     }
     .header.scrolled-nav .logo a {
         font-size: 23px;
-        line-height: 2;
+        line-height: 35px;
     }
 }
 
