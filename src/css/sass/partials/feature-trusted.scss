@@ -1,0 +1,56 @@
+/**
+ * partials/feature-trusted
+ * ---
+ */
+
+.trusted {
+    .container{
+        .container-inner {
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;             
+            display: flex;
+            align-items: center;
+            .column-left{
+                color: grey;
+                padding: 0 10px;
+                flex-basis: 33.33%;
+                margin-bottom: 0;
+                font-size: 18px;
+                font-family: 'open_sansregular';
+                font-weight: 300;
+                line-height: 1.4; 
+                @media only screen and(max-width: 768px){
+                    flex-basis: 100%;
+                }               
+               p{
+                    margin: 0;
+                    .hidden {
+                        @media only screen and (max-width: 991px){
+                            display: none;                        
+                        }
+                    }                  
+                }
+            }
+            .column-right{
+                flex-basis: 66.66%;
+                padding: 0 10px;
+                @media only screen and (max-width: 768px){
+                    display: none;
+                }
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    margin: 0;
+                    li{
+                        flex-basis: 20%;     
+                        img {
+                            width: 95%;                            
+                            filter: grayscale(100%);
+                        }
+                    }
+                }         
+            }
+        }
+    }
+}

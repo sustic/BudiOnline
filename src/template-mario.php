@@ -277,4 +277,34 @@
     </div>
 </section>
 
+<section class="trusted full-width padding-small">
+    <div class="container" style="background-color: white">
+        <div class="container-inner">
+            <div class="column-left">
+                <p>Trusted by over 12,345 customers <br class="hidden" />
+                in over 123 countries.</p>
+            </div>
+            <div class="column-right">
+                <ul>
+                    <li class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/enom.png" alt="">
+                    </li>
+                    <li class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/cpanel.png" alt="">
+                    </li>
+                    <li class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/resellerclub.png" alt="">
+                    </li>
+                    <li class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/paypal.png" alt="">
+                    </li>
+                    <li class="text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/icons/plesk.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>
