@@ -17,7 +17,7 @@
 					a:
 						target="_blank" ***** To open link on a new tab *****
 			-->
-			<footer data-aos="fade-up" class="footer" role="contentinfo">
+			<footer class="footer" role="contentinfo">
 				<div class="footer-top full-width padding-normal">
 					<div class="container" style="background-color: #2E4051">
 						<div class="container-inner">
