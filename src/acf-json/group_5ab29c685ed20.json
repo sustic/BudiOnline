@@ -192,6 +192,54 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "5ae213f8a7f5f": {
+                    "key": "5ae213f8a7f5f",
+                    "name": "sidebar_element",
+                    "label": "Sidebar element",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ae2140da7f60",
+                            "label": "Sidebar content",
+                            "name": "sidebar_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5ae21425a7f61",
+                            "label": "Main content",
+                            "name": "main_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Element",
@@ -230,5 +278,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1524156345
+    "modified": 1524765764
 }

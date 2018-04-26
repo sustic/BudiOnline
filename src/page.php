@@ -36,6 +36,21 @@
 					</div>
 				</section>
 
+    <?php
+			elseif( get_row_layout() == 'sidebar_element' ): 
+	?>
+                <section class="sidebar full-width padding-normal" data-aos="fade-up">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="main-content">
+                                <?php the_sub_field('main_content'); ?>
+                            </div>
+                            <aside class="sidebar-content">
+                                <?php the_sub_field('sidebar_content'); ?>
+                            </aside>
+                        </div>
+                    </div>
+                </section>
 		<?php
 			endif;
 
