@@ -277,6 +277,19 @@
     </div>
 </section>
 
+<!-- 
+    Element Name: Feature Trusted
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny               
+            background-color
+            text-aligment:  text-center, text-left, text-right
+            hidden
+        HTML: img, p, br
+              
+-->
+
 <section class="trusted full-width padding-small">
     <div class="container" style="background-color: white">
         <div class="container-inner">
@@ -303,6 +316,26 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- 
+    Element Name: Feature CTA
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny               
+            background-color
+        HTML: h1, h2, h3, h4, a 
+              
+-->
+
+<section class="section-cta full-width padding-normal">
+    <div class="container" style="background-color: #555E68">
+        <div class="container-inner">
+            <h4>Have any questions?</h4>
+            <a href="#">Contact our Sales Team</a>
         </div>
     </div>
 </section>
