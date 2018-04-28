@@ -340,4 +340,53 @@
     </div>
 </section>
 
+<!-- 
+    Element Name: Feature Services
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny   
+            border:  border-top, border-bottom           
+            background-color
+            column-left, colum-right
+            row-inner - column-width-50
+        HTML: h1, h2, h3, h4, p a 
+              
+-->
+
+<section class="services full-width padding-normal">
+    <div class="container border-top" style="background-color: #fff">
+        <div class="container-inner">
+            <div class="column-left">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/gear-spanner-2.png" alt="">
+            </div>
+            <div class="column-right">
+                <h3>Installation & Configuration - 12.34<span style="color: grey">kn</span></h3>
+                <p>Have an expert from our team install and setup WHMCS for you. We'll fully install, configure and setup WHMCS ready for you to begin using. The service includes all of the following:</p>
+                <div class="row-inner">
+                    <div class="column-width-50">
+                        <ul>
+                            <li><i class="fas fa-check"></i>Installation of Core Software</li>
+                            <li><i class="fas fa-check"></i>Cron Task Automation Setup</li>
+                            <li><i class="fas fa-check"></i>Initial System Configuration</li>
+                            <li><i class="fas fa-check"></i>Setup of 1 Hosting Server/Reseller Account</li>
+                        </ul>
+                    </div>
+                    <div class="column-width-50">
+                        <ul>
+                            <li><i class="fas fa-check"></i>Configuration of up to 6 Products/Services</li>
+                            <li><i class="fas fa-check"></i>Setup of Domain Registrar & TLD Pricing</li>
+                            <li><i class="fas fa-check"></i>Setup and Configuration of Payment Gateways</li>
+                            <li><i class="fas fa-check"></i>Setup of Support Departments & Email Piping</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#">Get Instalation & Configuration for 123.45kn</a>
+                <a href="#">SInstallation Only 56.56kn</a>
+                <a href="#">Configuration Only 70.00kn</a>
+            </div>
+        </div>    
+    </div>
+</section>
+
 <?php get_footer(); ?>

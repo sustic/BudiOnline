@@ -1,0 +1,141 @@
+/**
+ * partials/feature-services
+ * ---
+ */
+.services{
+    .border-top{
+        border-top: 1px solid #eee;
+    }
+    .border-bottom{
+        border-bottom: 1px solid #eee;
+    }
+    .container{
+        .container-inner{
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            padding: 0 10px;
+            @media only screen and (max-width: 768px){
+                flex-direction: column;
+            }
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: #333;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                padding: 10px 30px;
+                font-family: 'open_sansregular';
+                font-weight: 400;
+                line-height: 1.4;                
+                font-size: 14px;
+                margin-bottom: 5px;
+                transition: all 0.2s;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #E5E5E5; 
+                    border-color: #ACACAC;
+                }
+                @media only screen and(max-width: 991px){
+                    display: block;                    
+                    text-align: center;
+                }
+            }
+            .column-left{
+                flex-basis: 25%;
+                padding-right: 15px;
+                @media only screen and (max-width: 768px){
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                img{
+                    max-width: 90%;
+                    @media only screen and (max-width: 991px){
+                        max-width: 150px;
+                        margin-bottom: 30px;
+                    }
+                }                
+            }
+            .column-right {
+                flex-basis: 75%;
+                padding-left: 15px;
+                @media only screen and(max-width: 768px){
+                    padding-left: 0;
+                }
+                h1, h2, h3, h4{
+                    color: #76a24f;
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                    font-family: 'ralewayregular';
+                    font-weight: 400;
+                    line-height: 1.1;
+                }
+                h1{
+                    font-size: 28px;
+                    span{
+                        font-size: 26px;
+                    }
+                }
+                h2{
+                    font-size: 26px;
+                    span{
+                        font-size: 24px;
+                    }
+                }
+                h3{
+                    font-size: 24px;
+                    span{
+                        font-size: 22px;
+                    }
+                }
+                h4{
+                    font-size: 22px;
+                    span{
+                        font-size: 20px;
+                    }
+                }
+                p{
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                    font-family: 'open_sansregular';
+                    font-size: 15px;
+                    color: #333;
+                    line-height: 1.7; 
+                }
+                .row-inner{
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+                    margin-bottom: 20px;
+                    @media only screen and (max-width: 1200px){
+                        flex-direction: column;
+                    }
+                    .column-width-50{
+                        flex-basis: 50%;
+                        ul{
+                            list-style-type: none;
+                            margin: 0;
+                            padding-left: 40px;
+                            @media only screen and (max-width: 768px){
+                                padding-left: 20px;
+                            }
+                            li{
+                                font-family: 'open_sansregular';
+                                font-weight: 400;
+                                color: #333;
+                                font-size: 15px;
+                                line-height: 1.7;
+                                svg{
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }                
+                }
+            }
+        }
+    }
+}
