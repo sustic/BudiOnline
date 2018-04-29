@@ -48,6 +48,13 @@
 		</div>
 	</div>
 </section>
+
+
+
+
+
+
+
 <!-- 
     Element name: Headline & subheadline
     Awailable options:
@@ -85,6 +92,47 @@
         </div>
     </div>
 </section>
+
+<!--
+    Element name: Reference
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="reference full-width padding-normal">
+    <div class="container">
+        <div class="container-inner">
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 <section class="headline-subheadline full-width text-center padding-tiny">
     <div class="container" style="background-color:#e8e8e8; border-bottom: 1px solid #ccc;">
         <div class="container-inner">
@@ -1113,4 +1161,45 @@
     </div>
 </section>
 
+
+
+<?php
+    $consumer_key = 'AaYeyNSqdEU6pDg1HZFoMfaPu';
+    $consumer_secret = 'eV9G9wnf5DBZN3Dm1YCMFPdJWN4ZE2DOPtHhJJCQrqamrCCiV4';
+    $access_token = '1359116856-TxSXQLfvmHuHbzWEK1W0uxRB461U5KW9UaToXdn';
+    $access_token_secret = 'UzqhelWXirIJmz191GL3tqX12wEB5DW0nImsB4qKw7qco';
+
+    // Include library
+    require "twitteroauth-master/autoload.php";
+    use Abraham\TwitterOAuth\TwitterOAuth;
+
+    $connection = new TwitterOAuth($consumer_key ,$consumer_secret, $access_token, $access_token_secret);
+    $statuses = $connection->get("statuses/user_timeline", ["count" => 4, "exclude_replies" => true]);
+    //print_r($statuses);
+    
+?>
+<section class="slider full-width padding-normal">
+    <div class="container" style="background-color:#ccc">
+        <div class="main-slider twitter-slider-js text-center">
+            <?php
+            foreach ($statuses as $key => $tweet) {
+                $date=date("d.m.Y.", strtotime($tweet->created_at));
+            ?>
+                <div>
+                    <p><?php echo($tweet->text); ?></p>
+                    <p><?php echo($date); ?></p>
+                </div>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>
+
+
+
+
+
+
