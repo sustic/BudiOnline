@@ -127,7 +127,7 @@
 <section class="slider full-width padding-normal">
     <div class="container" style="background-color:#ccc">
         <div class="main-slider text-center">
-            <div>
+            <div class="test">
                 <blackquote>
                 "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores.
                 </blackquote>
