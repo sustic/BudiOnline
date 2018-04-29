@@ -21,16 +21,20 @@
 	?>
 
 				<section class="domain-search full-width padding-normal" data-aos="fade-up">
-					<div class="container" style="background-color: #0084af;">
+					<div class="container" <?php if ( get_sub_field('element_inline_css_style') ) : ?> style="<?php echo get_sub_field('element_inline_css_style'); ?>"<?php endif; ?> >
 						<div class="container-inner">
-							<div class="domain-search-sub-element form-holder" style="color: #003756">
+							<div class="domain-search-sub-element form-holder">
 								<?php if ( get_sub_field('text') ) : ?>
 									<?php the_sub_field('text'); ?>
 								<?php endif; ?>
 								<?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="true"]' ); ?>
 							</div>
 							<div class="domain-search-sub-element image-holder">
-								<img src="<?php echo get_template_directory_uri();?>/img/icons/domain-registration.png" alt="Domain registration">
+                                <?php 
+                                $image = get_sub_field('image');
+                                if( !empty($image) ): ?>
+                                    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                <?php endif; ?>
 							</div>
 						</div>
 					</div>
