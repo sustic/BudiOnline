@@ -1,24 +1,26 @@
 <?php get_header(); ?>
+<section class="sidebar full-width padding-normal" data-aos="fade-up">
+    <div class="container">
+        <div class="container-inner">
+            <main role="main" aria-label="Content">
+                <!-- section -->
+                <section>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+                    <!-- article -->
+                    <article id="post-404">
 
-			<!-- article -->
-			<article id="post-404">
+                        <h1>404 Stranica nije pronađena</h1>
+                        <h2>
+                            <a href="<?php echo esc_url( home_url() ); ?>">Povratak na naslovnicu?</a>
+                        </h2>
 
-				<h1><?php esc_html_e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo esc_url( home_url() ); ?>"><?php esc_html_e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
+                    </article>
+                    <!-- /article -->
 
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
-
+                </section>
+                <!-- /section -->
+            </main>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>

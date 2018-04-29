@@ -67,7 +67,7 @@
                         }
                     }
                 }
-                
+
                 .validation_error{
                     display: none;
                 }
@@ -81,7 +81,7 @@
                     color: currentColor;
                     li{
                         color: currentColor;
-                       
+
                         input[type='text']{
                             font-size: 30px;
                             color: currentColor;
@@ -90,7 +90,8 @@
                             border: 0;
                             border-bottom: 3px solid currentColor;
                             padding: 5px;
-                            
+                            border-radius: 0;
+
                             &::placeholder{
                                 font-family: 'open_sansregular';
                                 font-size: 20px;
