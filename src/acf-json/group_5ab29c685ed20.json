@@ -147,25 +147,6 @@
                             "new_lines": ""
                         },
                         {
-                            "key": "field_5ad6485ef8d72",
-                            "label": "Form ID",
-                            "name": "form_id",
-                            "type": "text",
-                            "instructions": "This is ID (number) of the domain search form.",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "50",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
                             "key": "field_5ad6488bf8d73",
                             "label": "Image",
                             "name": "image",
@@ -174,7 +155,7 @@
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "50",
+                                "width": "100",
                                 "class": "",
                                 "id": ""
                             },
@@ -278,5 +259,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1524765764
+    "modified": 1524984893
 }
