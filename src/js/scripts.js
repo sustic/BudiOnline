@@ -59,13 +59,14 @@
 			});
 			$( '.twitter-slider-js' ).slick({
 				speed: 400,
+				autoplaySpeed: 5000,
 				autoplay: true,
 				centerMode: true,
 				slidesToShow: 1,
 				centerPadding: '0',
 				adaptiveHeight: true,
-				arrows: false,
-				dots: true
+				arrows: true,
+				dots: false
 			});
 			$( '.domain-slider' ).slick({
 				speed: 400,
