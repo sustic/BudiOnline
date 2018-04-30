@@ -170,13 +170,17 @@
 <section class="starter full-width padding-small">
     <div class="container" style="background-color:#fefefe">
         <div class="container-inner">
-            <span class="pull-right price h4"><strong>$99.99/mo</strong></span>
-            <h4>Starter</h4>            
-            <span>
-                Our Starter license offers a cheaper way to get started.<br />
-                Includes everything in Plus, along with a powered by branding link.
-                <a href="#" class="pull-right">Purchase Plan</a>
-            </span>
+            <div class="row-top">
+                <h4>Starter</h4> 
+                <h4 class="price"><strong>$99.99/mo</strong></h4>
+            </div>
+            <div class="row-bottom">
+                <div class="column-left">
+                    <p>Our Starter license offers a cheaper way to get started.</p>
+                    <p>Includes everything in Plus, along with a powered by branding link.</p>
+                </div>                
+                <a href="#">Purchase Plan</a>
+            </div>  
         </div>
     </div>
 </section>
