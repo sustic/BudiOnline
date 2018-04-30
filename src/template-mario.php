@@ -159,11 +159,11 @@
         CSS:
             width:    full-width, narrow-width            
             padding:  padding-fat, padding-normal, padding-small
-            price font-size: h1, h2, h3, h4
+            price 
             background-color
             
         HTML:
-            h1, h2, h3, h4,  strong, b, i, a
+            h1, h2, h3, h4, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
