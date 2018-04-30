@@ -358,4 +358,43 @@
 
 
 
+<!--
+    Element name: Reference
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="reference full-width padding-normal">
+    <div class="container">
+        <div class="container-inner">
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
 <?php get_footer(); ?>

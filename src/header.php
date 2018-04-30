@@ -23,7 +23,7 @@
 		?>
 	</head>
 	<body <?php body_class(); ?>>
-<header class="header clear header-scroll-handler <?php if ( get_field('header_css_class') ) : ?> <?php echo get_field('header_css_class'); ?> <?php endif; ?>" role="banner" style="<?php if ( get_field('header_color') ) : ?> background:<?php echo get_field('header_color'); ?>; <?php else: ?> background:grey; <?php endif; ?>">
+<header class="header clear header-scroll-handler <?php if ( get_field('header_css_class') ) : ?> <?php echo get_field('header_css_class'); ?> <?php else: ?>narrow-width  <?php endif; ?>" role="banner" style="<?php if ( get_field('header_color') ) : ?> background:<?php echo get_field('header_color'); ?>; <?php else: ?> background:#3d82bc; <?php endif; ?>">
 			<div class="container">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">

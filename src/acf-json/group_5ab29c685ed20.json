@@ -147,25 +147,6 @@
                             "new_lines": ""
                         },
                         {
-                            "key": "field_5ad6485ef8d72",
-                            "label": "Form ID",
-                            "name": "form_id",
-                            "type": "text",
-                            "instructions": "This is ID (number) of the domain search form.",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "50",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
                             "key": "field_5ad6488bf8d73",
                             "label": "Image",
                             "name": "image",
@@ -174,7 +155,7 @@
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "50",
+                                "width": "100",
                                 "class": "",
                                 "id": ""
                             },
@@ -188,6 +169,83 @@
                             "max_height": "",
                             "max_size": "",
                             "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5ae77f2eb1d6a": {
+                    "key": "5ae77f2eb1d6a",
+                    "name": "twitter-element",
+                    "label": "Twitter element",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ae77f3cb1d6b",
+                            "label": "Number of tweets",
+                            "name": "number_of_tweets",
+                            "type": "text",
+                            "instructions": "Number of tweets to from latest to older.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5ae213f8a7f5f": {
+                    "key": "5ae213f8a7f5f",
+                    "name": "sidebar_element",
+                    "label": "Sidebar element",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ae2140da7f60",
+                            "label": "Sidebar content",
+                            "name": "sidebar_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5ae21425a7f61",
+                            "label": "Main content",
+                            "name": "main_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
                         }
                     ],
                     "min": "",
@@ -230,5 +288,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1524156345
+    "modified": 1525120873
 }

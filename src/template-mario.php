@@ -73,7 +73,7 @@
             h1,h2,h3,h4 strong, b, i, a
             
         HTML:
-            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+            blockquote, h1, h2, h3, h4, h5, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
@@ -119,33 +119,33 @@
             background-color
             
         HTML:
-            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+            blockquote, h1, h2, h3, h4, h5, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
 
 <section class="slider full-width padding-normal">
     <div class="container" style="background-color:#ccc">
-        <div class="main-slider text-center">
+        <div class="main-slider main-slider-js text-center">
             <div>
-                <blackquote>
+                <blockquote>
                 "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores.
-                </blackquote>
+                </blockquote>
                 <h5><a href="#">Some Title</a></h5>
                 <p>Some text</p>
             </div>
             <div>
                 <h5>Some Title</h5>
                 <p>Some text</p>
-                <blackquote>
+                <blockquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
-                </blackquote>
+                </blockquote>
                 
             </div>
             <div>
-                <blackquote>
+                <blockquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
-                </blackquote>
+                </blockquote>
                 <h5>Some Title</h5>
                 <p>Some text</p>
             </div>
@@ -159,24 +159,28 @@
         CSS:
             width:    full-width, narrow-width            
             padding:  padding-fat, padding-normal, padding-small
-            price font-size: h1, h2, h3, h4
+            price 
             background-color
             
         HTML:
-            h1, h2, h3, h4,  strong, b, i, a
+            h1, h2, h3, h4, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
 <section class="starter full-width padding-small">
     <div class="container" style="background-color:#fefefe">
         <div class="container-inner">
-            <span class="pull-right price h4"><strong>$99.99/mo</strong></span>
-            <h4>Starter</h4>            
-            <span>
-                Our Starter license offers a cheaper way to get started.<br />
-                Includes everything in Plus, along with a powered by branding link.
-                <a href="#" class="pull-right">Purchase Plan</a>
-            </span>
+            <div class="row-top">
+                <h4>Starter</h4> 
+                <h4 class="price"><strong>$99.99/mo</strong></h4>
+            </div>
+            <div class="row-bottom">
+                <div class="column-left">
+                    <p>Our Starter license offers a cheaper way to get started.</p>
+                    <p>Includes everything in Plus, along with a powered by branding link.</p>
+                </div>                
+                <a href="#">Purchase Plan</a>
+            </div>  
         </div>
     </div>
 </section>
@@ -277,6 +281,19 @@
     </div>
 </section>
 
+<!-- 
+    Element Name: Feature Trusted
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny               
+            background-color
+            text-aligment:  text-center, text-left, text-right
+            hidden
+        HTML: img, p, br
+              
+-->
+
 <section class="trusted full-width padding-small">
     <div class="container" style="background-color: white">
         <div class="container-inner">
@@ -304,6 +321,75 @@
                 </ul>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- 
+    Element Name: Feature CTA
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny               
+            background-color
+        HTML: h1, h2, h3, h4, a 
+              
+-->
+
+<section class="section-cta full-width padding-normal">
+    <div class="container" style="background-color: #555E68">
+        <div class="container-inner">
+            <h4>Have any questions?</h4>
+            <a href="#">Contact our Sales Team</a>
+        </div>
+    </div>
+</section>
+
+<!-- 
+    Element Name: Feature Services
+        
+        CSS: 
+            width: full-width, narrow-width
+            padding: padding-fat, padding-normal, padding-small, padding-tiny   
+            border:  border-top, border-bottom           
+            background-color
+            column-left, colum-right
+            row-inner - column-width-50
+        HTML: h1, h2, h3, h4, p a 
+              
+-->
+
+<section class="services full-width padding-normal">
+    <div class="container border-top" style="background-color: #fff">
+        <div class="container-inner">
+            <div class="column-left">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/icons/gear-spanner-2.png" alt="">
+            </div>
+            <div class="column-right">
+                <h3>Installation & Configuration - 12.34<span style="color: grey">kn</span></h3>
+                <p>Have an expert from our team install and setup WHMCS for you. We'll fully install, configure and setup WHMCS ready for you to begin using. The service includes all of the following:</p>
+                <div class="row-inner">
+                    <div class="column-width-50">
+                        <ul>
+                            <li><i class="fas fa-check"></i>Installation of Core Software</li>
+                            <li><i class="fas fa-check"></i>Cron Task Automation Setup</li>
+                            <li><i class="fas fa-check"></i>Initial System Configuration</li>
+                            <li><i class="fas fa-check"></i>Setup of 1 Hosting Server/Reseller Account</li>
+                        </ul>
+                    </div>
+                    <div class="column-width-50">
+                        <ul>
+                            <li><i class="fas fa-check"></i>Configuration of up to 6 Products/Services</li>
+                            <li><i class="fas fa-check"></i>Setup of Domain Registrar & TLD Pricing</li>
+                            <li><i class="fas fa-check"></i>Setup and Configuration of Payment Gateways</li>
+                            <li><i class="fas fa-check"></i>Setup of Support Departments & Email Piping</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#">Get Instalation & Configuration for 123.45kn</a>
+                <a href="#">SInstallation Only 56.56kn</a>
+                <a href="#">Configuration Only 70.00kn</a>
+            </div>
+        </div>    
     </div>
 </section>
 

@@ -1,0 +1,31 @@
+/**
+ * partials/feature-twitter
+ * ---
+ */
+.slider{
+  &.twitter-slide{
+    .twitter-message{
+      font-size: 25px!important;
+      color: #696969!important;
+      @media only screen and (max-width:640px) {
+        font-size: 22px!important;
+        line-height: 1.2!important;
+      }
+    }
+    .twitter-handle{
+       a{
+         color:#1da1f2;
+         text-decoration: none!important;
+         &:hover{
+           text-decoration: underline!important;
+         }
+       }
+    }
+    .twitter-date{
+      font-size: 11px!important;
+      font-family: 'open_sansregular'!important;
+      color: grey!important;
+    }
+  }
+}
+

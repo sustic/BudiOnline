@@ -113,6 +113,9 @@ function html5blank_header_scripts() {
             // fontAwesome icons
             wp_register_script( 'fontAwesomeJs', get_template_directory_uri() . '/js/lib/fontawesome-all.min.js', array( ), '5.0.9' );
 
+            // prismJS
+            wp_register_script( 'prismJS', get_template_directory_uri() . '/js/lib/prism.js', array( 'jquery' ), '1.0.0' );
+
             // aos
             wp_register_script( 'aosJs', get_template_directory_uri() . '/js/lib/aos.min.js', array( 'jquery' ), '1.0.0' );
 
@@ -128,6 +131,7 @@ function html5blank_header_scripts() {
                     'markaJs',
                     'fontAwesomeJs',
                     'aosJs',
+                    'prismJS',
                     'jquery'
                 ),
                 '1.0.0' );
@@ -178,8 +182,11 @@ function html5blank_styles() {
         // AOS
         wp_register_style( 'aosCss', get_template_directory_uri() . '/css/lib/aos.min.css', array(), '1.0.0' );
 
+        // PrismCSS
+        wp_register_style( 'prismCss', get_template_directory_uri() . '/css/lib/prism.css', array(), '1.0.0' );
+
         // Custom CSS
-        wp_register_style( 'html5blank', get_template_directory_uri() . '/style.css', array( 'normalize', 'slick', 'slicktheme', 'fancybox', 'markaCss', 'aosCss' ), '1.0' );
+        wp_register_style( 'html5blank', get_template_directory_uri() . '/style.css', array( 'normalize', 'slick', 'slicktheme', 'fancybox', 'markaCss', 'aosCss', 'prismCss' ), '1.0' );
 
         // Register CSS
         wp_enqueue_style( 'html5blank' );
@@ -639,3 +646,6 @@ function gf_spinner_replace( $image_src, $form ) {
     return  'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; // relative to you theme images folder
 }
 add_filter( 'gform_ajax_spinner_url', 'gf_spinner_replace', 10, 2 );
+
+// Disabling Automatic Scrolling On All Forms
+add_filter( 'gform_confirmation_anchor', '__return_false' );

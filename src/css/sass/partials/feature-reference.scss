@@ -1,0 +1,35 @@
+/**
+ * partials/feature-reference
+ * ---
+ */
+
+ .reference{
+  .container{
+    .container-inner {
+        width: 95%;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: flex-start;
+        div{
+          width: 45%;
+          margin-bottom: 20px;
+          @media only screen and (max-width: 1200px) {
+            width: 48%;
+          }
+          @media only screen and (max-width: 748px) {
+            width: 100%;
+          }
+          img{
+            width: 100%;
+          }
+        }
+    }
+  }
+}

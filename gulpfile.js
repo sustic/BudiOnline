@@ -34,6 +34,9 @@ var gulp = require( 'gulp' ),
 		/** Aos */
 		'src/js/lib/aos.min.js',
 
+		/** Prism */
+		'src/js/lib/prism.js',
+
 		/** Page scripts */
 		'src/js/scripts.js'
 	],
@@ -73,6 +76,9 @@ var gulp = require( 'gulp' ),
 
 			/** Aos */
 			'src/css/lib/aos.min.css',
+
+			/** Prism */
+			'src/css/lib/prism.css',
 
 			/** Theme style */
 			'src/css/style.css'
