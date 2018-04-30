@@ -214,8 +214,6 @@
 	}
 	.container-inner {
 		width: 95%;
-		padding-left: 10px;
-		padding-right: 10px;
 		max-width: 1200px;
 		margin: 0 auto;
 		display: flex;
@@ -250,22 +248,22 @@
 		}
 		.column-width-100{
 			flex-basis: 100%;
-			padding: 0 1%;
+			padding: 0 10px;
 			margin-bottom: 30px;
 		}
 		.column-width-50{
 			flex-basis: 50%;
-			padding: 0 1%; 
+			padding: 0 10px; 
 			margin-bottom: 30px;
 		}
 		.column-width-33{
 			flex-basis: 33.33%;
-			padding: 0 1%;
+			padding: 0 10px;
 			margin-bottom: 30px;
 		}
 		.column-width-25 {
 			flex-basis: 25%;
-			padding: 0 1%;
+			padding: 0 10px;
 			margin-bottom: 30px;
 		}	
 	}
@@ -608,19 +606,25 @@
 
 		.img-text {
 			flex-direction: row;
-			justify-content: flex-start;			
+			justify-content: flex-start;
+			.column-img{
+				padding-right: 5%;
+			}			
 		}
 		.text-img {
 			flex-direction: row-reverse;
-			justify-content: flex-end;
+			justify-content: space-between;
+			.column-img{
+				img{
+					float: right;
+				}
+			}
 		}
 		.column-img {
-			flex-basis: 16%;
-			padding: 0 1%;
+			flex-basis: 16%;			
 		}
 		.column-text {
-			flex-basis: 82%;
-			padding: 0 1%;
+			flex-basis: 82%;			
 		}
 		h1 {
 			font-size: 42px;
@@ -708,17 +712,10 @@
 
 .slider {
 	.container {
-		padding-left: 10%;
-		padding-right: 10%;	
 		.main-slider {
-			max-width: 740px;
-			width: 95%;
-			padding: 10px 20px;
+			max-width: 750px;
+			width: 95%;			
 			margin: 0 auto;
-			.slick-list {
-				padding-left: 20px;
-				padding-right: 20px;
-			}
 			.slick-next {
 				right: 55px;
 			}
@@ -730,7 +727,10 @@
 				font-size: 50px;
 				color: $text-color;
 			}
-			.slick-slide {				
+			.slick-slide {
+				width: 100%;
+				max-width: 750px;
+				padding: 0 1.2%;				
 				&:focus {
 					display: none;					
 				}								
@@ -783,9 +783,7 @@
 				}
 				blackquote {
 					display: block;	
-					font-size: 18px;
-					width: 85%;
-					margin: 0 auto;																						
+					font-size: 18px;																					
 				}			
 			}
 		}
@@ -819,17 +817,82 @@
 	.slider {
 		.container {
 			.main-slider {
+				.slick-slide{					
+					padding: 0 1.25%;
+				}
 				.slick-next {
-					right:7px;
+					right:53px;
 				}
 				.slick-prev {
-					left:-23px;
+					left:25px;
+				}				
+			}
+		}
+	}
+}
+@media only screen and (max-width:650px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-next {
+					right:45px;
 				}
-				.slick-slide{
-					blackquote{
-						width: 100%;
-					}
+				.slick-prev {
+					left:15px;
+				}				
+			}
+		}
+	}
+}
+@media only screen and (max-width:600px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-next {
+					right:40px;
 				}
+				.slick-prev {
+					left:10px;
+				}				
+			}
+		}
+	}
+}
+@media only screen and (max-width:490px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-next {
+					right:35px;
+				}
+				.slick-prev {
+					left:5px;
+				}				
+			}
+		}
+	}
+}
+@media only screen and (max-width:450px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-slide{					
+					padding: 0 1.5%;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:400px) {
+	.slider {
+		.container {
+			.main-slider {
+				.slick-next {
+					right:40px;
+				}
+				.slick-prev {
+					left:12px;
+				}				
 			}
 		}
 	}

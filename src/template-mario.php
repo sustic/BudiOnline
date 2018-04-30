@@ -127,7 +127,7 @@
 <section class="slider full-width padding-normal">
     <div class="container" style="background-color:#ccc">
         <div class="main-slider text-center">
-            <div>
+            <div class="test">
                 <blackquote>
                 "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores.
                 </blackquote>
@@ -159,24 +159,28 @@
         CSS:
             width:    full-width, narrow-width            
             padding:  padding-fat, padding-normal, padding-small
-            price font-size: h1, h2, h3, h4
+            price 
             background-color
             
         HTML:
-            h1, h2, h3, h4,  strong, b, i, a
+            h1, h2, h3, h4, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
 <section class="starter full-width padding-small">
     <div class="container" style="background-color:#fefefe">
         <div class="container-inner">
-            <span class="pull-right price h4"><strong>$99.99/mo</strong></span>
-            <h4>Starter</h4>            
-            <span>
-                Our Starter license offers a cheaper way to get started.<br />
-                Includes everything in Plus, along with a powered by branding link.
-                <a href="#" class="pull-right">Purchase Plan</a>
-            </span>
+            <div class="row-top">
+                <h4>Starter</h4> 
+                <h4 class="price"><strong>$99.99/mo</strong></h4>
+            </div>
+            <div class="row-bottom">
+                <div class="column-left">
+                    <p>Our Starter license offers a cheaper way to get started.</p>
+                    <p>Includes everything in Plus, along with a powered by branding link.</p>
+                </div>                
+                <a href="#">Purchase Plan</a>
+            </div>  
         </div>
     </div>
 </section>

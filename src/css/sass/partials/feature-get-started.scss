@@ -21,11 +21,16 @@
                 flex-basis: 76%;
                 @media only screen and (max-width: 768px){
                     flex-basis: 100%;
+                    display: flex;
+                    align-items: flex-start;
                 }
                 .column-left--left{                    
                     font-size: 72px;
                     color: #aaa;
                     margin-right: 20px;
+                    @media only screen and (max-width: 768px){
+                        display: flex;                        
+                    }                    
                 }
                 .column-left--right{
                     h1, h2, h3, h4 {
