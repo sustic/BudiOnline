@@ -73,7 +73,7 @@
             h1,h2,h3,h4 strong, b, i, a
             
         HTML:
-            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+            blockquote, h1, h2, h3, h4, h5, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
@@ -119,33 +119,33 @@
             background-color
             
         HTML:
-            blackquote, h1, h2, h3, h4, h5, p, strong, b, i, a
+            blockquote, h1, h2, h3, h4, h5, p, strong, b, i, a
         a:
             target="_blank" ***** To open link on a new tab *****
 -->
 
 <section class="slider full-width padding-normal">
     <div class="container" style="background-color:#ccc">
-        <div class="main-slider text-center">
-            <div class="test">
-                <blackquote>
+        <div class="main-slider main-slider-js text-center">
+            <div>
+                <blockquote>
                 "Lorem ipsum dolor sit amet <a href="#">consectetur</a> adipisicing elit. Reprehenderit unde quas quae animi. Eos ratione recusandae necessitatibus ipsum fugit maiores.
-                </blackquote>
+                </blockquote>
                 <h5><a href="#">Some Title</a></h5>
                 <p>Some text</p>
             </div>
             <div>
                 <h5>Some Title</h5>
                 <p>Some text</p>
-                <blackquote>
+                <blockquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
-                </blackquote>
+                </blockquote>
                 
             </div>
             <div>
-                <blackquote>
+                <blockquote>
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
-                </blackquote>
+                </blockquote>
                 <h5>Some Title</h5>
                 <p>Some text</p>
             </div>

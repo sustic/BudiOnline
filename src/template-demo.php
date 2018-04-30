@@ -48,6 +48,13 @@
 		</div>
 	</div>
 </section>
+
+
+
+
+
+
+
 <!-- 
     Element name: Headline & subheadline
     Awailable options:
@@ -85,6 +92,47 @@
         </div>
     </div>
 </section>
+
+<!--
+    Element name: Reference
+    Awailable options:
+        CSS:
+            width:    full-width, narrow-width
+-->
+<section class="reference full-width padding-normal">
+    <div class="container">
+        <div class="container-inner">
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+            <div>
+                <img src="http://localhost/budionline/wp-content/uploads/2018/04/whmcs-v751-release.png" alt="Lol">
+                <h1>Only 4 months to go until SSL is required</h1>
+                <p>Google's new age of Secure Internet is set to take another giant leap forward this coming July with the launch of Chrome 68. For the past several years, Google has been increasingly advocating...</p>
+                <p><a href="http://google.com">Read more</a></p>
+                <p><b><i>By Someone</i></b></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 <section class="headline-subheadline full-width text-center padding-tiny">
     <div class="container" style="background-color:#e8e8e8; border-bottom: 1px solid #ccc;">
         <div class="container-inner">
@@ -1009,7 +1057,7 @@
 
 <section class="slider full-width padding-normal">
     <div class="container" style="border-bottom:1px solid #ccc">
-        <div class="main-slider text-center">
+        <div class="main-slider main-slider-js text-center">
 			<div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, consequatur corporis iure molestias, accusantium distinctio magni totam perferendis nobis error provident omnis esse. Optio perferendis expedita perspiciatis, iure ad commodi.</p>
 				<h5><a href="#">Some Title</a></h5>
