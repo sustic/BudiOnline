@@ -536,7 +536,8 @@
 					ul{
 						flex-wrap: wrap;
 						li{
-							width: 50%;
+              width: 49%;
+              margin: 2px;
 							&:after{
 								display: none;
 							}

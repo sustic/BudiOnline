@@ -21,3 +21,13 @@
 .reset-box {
   @include reset-box;
 }
+
+.pagination{
+  text-align: center;
+  font-size: 20px;
+  padding: 30px 10px;
+  font-family: 'open_sansregular';
+  .current{
+    font-family: 'open_sansbold';
+  }
+}

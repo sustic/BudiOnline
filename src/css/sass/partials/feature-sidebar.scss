@@ -12,6 +12,9 @@
     .main-content{
       float: left;
       width: calc(100% - 330px);
+      &.no-sidebar{
+        width: 100%;
+      }
       @media only screen and (max-width: 940px) {
         width: 100%;
       }

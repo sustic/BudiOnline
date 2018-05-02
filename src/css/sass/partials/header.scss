@@ -5,6 +5,11 @@
 
 
 // Header container
+.archive {
+  .header{
+    background: #2E4051!important;
+  }
+}
 .header {
     #menu_icon{
         display: none;
@@ -101,8 +106,8 @@
                     padding-right: 5px;
                     &:after{
                         content:" ";
-                        width: 0; 
-                        height: 0; 
+                        width: 0;
+                        height: 0;
                         border-left: 5px solid transparent;
                         border-right: 5px solid transparent;
                         border-top: 5px solid currentColor;
@@ -193,7 +198,7 @@
                     }
                 }
             }
-            
+
         }
         .logo {
             a{
@@ -201,7 +206,7 @@
                 color: $dark-blue;
                 line-height: 35px;
                 span{
-                 color: $dark-blue;   
+                 color: $dark-blue;
                 }
                 img{
                     width: 100px;

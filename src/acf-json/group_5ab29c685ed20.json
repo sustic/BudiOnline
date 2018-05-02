@@ -198,6 +198,109 @@
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ae9f28686e56",
+                            "label": "Consumer Key (API Key)",
+                            "name": "consumer_key_api_key",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "OI1WlrOFZoFMzzi7OBFlA",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ae9f2a286e57",
+                            "label": "Consumer Secret (API Secret)",
+                            "name": "consumer_secret_api_secret",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "PRpuV26eEnOeUN8kwKlBxAe8vLdZQoBVNyoKTChrpk4",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ae9f2b986e58",
+                            "label": "Access Token",
+                            "name": "access_token",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "442842125-6OPXxcnfXsOIF4eQ1EVCVla9rLkOelTJzzIvGtzH",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5ae9f2d186e59",
+                            "label": "Access Token Secret",
+                            "name": "access_token_secret",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "NWqYN74lrjTeDP0hea6fweLEFustACeQuHJDGWyBWKQ",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5ae9f5805de4e": {
+                    "key": "5ae9f5805de4e",
+                    "name": "google_map",
+                    "label": "Google map",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ae9f58d5de4f",
+                            "label": "Usage Warning",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Add this element only once per page!",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
                         }
                     ],
                     "min": "",
@@ -250,6 +353,35 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "5aea044205790": {
+                    "key": "5aea044205790",
+                    "name": "no_sidebar_element",
+                    "label": "No sidebar element",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5aea044205792",
+                            "label": "Main content",
+                            "name": "main_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Element",
@@ -263,6 +395,13 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
             }
         ]
     ],
@@ -282,11 +421,10 @@
         "author",
         "format",
         "featured_image",
-        "categories",
         "tags",
         "send-trackbacks"
     ],
     "active": 1,
     "description": "",
-    "modified": 1525120873
+    "modified": 1525285972
 }
