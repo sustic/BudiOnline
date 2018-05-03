@@ -116,7 +116,9 @@ gulp.task( 'copy', function() {
 			'src/modules/*.php',
 			'src/img/**/*.{jpg,png,svg,gif,webp,ico}',
 			'src/fonts/*.{woff,woff2,ttf,otf,eot,svg}',
-			'src/languages/*.{po,mo,pot}'
+			'src/languages/*.{po,mo,pot}',
+			'src/twitteroauth-master/**',
+			'src/acf-json/**'
 		], {
 			base: 'src'
 		})
