@@ -27,8 +27,8 @@
 			<div class="container">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" class="logo-img dark-logo scrolled-logo">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" class="logo-img main-logo">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" style="max-width: 180px;" class="logo-img dark-logo scrolled-logo">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" style="max-width: 180px;" class="logo-img main-logo">
 						
 						<i class="fas fa-rocket" style="display:none"></i>
 					</a>
