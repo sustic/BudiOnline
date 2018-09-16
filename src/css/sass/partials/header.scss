@@ -18,44 +18,52 @@
         margin-top: 15px;
         margin-left: 10px;
     }
-    transition: background-color 0.2s, border-bottom 0.2s ease-in-out;;
+    transition: background-color 0.2s, border-bottom 0.2s ease-in-out, height 0.2s ease-in-out;
     border-bottom: 1px solid transparent;
     position: fixed;
     z-index: 6;
     top: 0;
     left: 0;
     width: 100%;
+    height: 70px;
     .container{
         padding-left: 10px;
         padding-right: 10px;
         position: relative;
         .logo{
             a{
-                display: block;
-                line-height: 60px;
-
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-items: center;
+                align-content: center;
+                height: 70px;
             }
             img{
                 width: 150px;
                 opacity: 1;
-                transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out, width 0.2s ease-in-out;
-                margin-top: -10px;
-                &.dark-logo{
-                    opacity: 0;
-                    position: absolute;
-                    top: 24px;
+                transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out, width 0.2s ease-in-out, visibility 0.2s ease-in-out, margin-left 0.2s ease-in-out;
+                &.scrolled-logo{
+                  visibility: hidden;
+                  opacity: 0;
                 }
+                &.main-logo{
+                  margin-left: -150px;
+                }
+
             }
         }
     }
     .cta-menu-holder{
         float: right;
         display: block;
-        margin-top: 20px;
-        transition: margin-top 0.2s ease-in-out;
+        transition: margin-top 0.2s ease-in-out, line-height 0.2s ease-in-out;
+        line-height: 70px;
         .header-login-link{
             font-family: 'open_sansbold';
             color: white;
+            text-decoration: none;
         }
         .header-cta-link{
             font-family: 'open_sansbold';
@@ -63,11 +71,11 @@
             border: 1px solid $dark-green;
             color: white;
             border-radius: 5px;
-            padding: 8px 15px;
+            padding: 4px 15px;
             margin-left: 13px;
             opacity: 1;
             transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, padding 0.2s ease-in-out;
-            &:hover{
+            &:hover, &:focus{
                 background-color: $dark-green;
                 border: 1px solid $hilight-green;
                 text-decoration: none;
@@ -76,9 +84,11 @@
     }
     .nav{
         float: left;
-        font-size: 14px;
-        padding-top: 10px;
-        transition: padding-top 0.2s ease-in-out, height 0.2s ease-in-out, right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        font-size: 15px;
+        font-family: 'open_sansregular';
+        height: 70px;
+        line-height: 70px;
+        transition: padding-top 0.2s ease-in-out, height 0.2s ease-in-out, right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), line-height 0.2s ease-in-out;
         .mobile-cta{
             display: none;
         }
@@ -86,17 +96,22 @@
             list-style: none;
             float: left;
             padding: 0;
+            margin: 0;
             transition: margin 0.2s ease-in-out;
             li{
                 float: left;
                 margin-right: 20px;
                 position: relative;
                 color: white;
-                &:hover ul, &:focus ul{
-                    left: 0;
+                a{
+                  transition: opacity 0.2s ease-in-out;
                 }
-                &:hover a{
-                    text-decoration: underline;
+                &:hover ul, &:focus ul{
+                    left: -10px;
+                }
+                &:hover a, &:focus a{
+                    text-decoration: none;
+                    opacity: 0.8
                 }
                 &:hover ul a{
                     text-decoration: none;
@@ -124,10 +139,12 @@
                     background-color: white;
                     padding: 10px 0;
                     border-radius: 5px;
-                    box-shadow: 0 4px 5px #c3c3c3;
+                    box-shadow: 0 6px 12px rgba(0,0,0,.175);
                     left: -9999px;
+                    margin-top: -20px;
+                    line-height: 1.5;
                     li{
-                        padding: 0 10px;
+                        padding: 0 20px;
                         margin-right: 0;
                         float: none;
                         background-color:transparent;
@@ -138,7 +155,7 @@
                     }
                     a{
                         white-space: nowrap;
-                        color: grey;
+                        color: #333;
                     }
                 }
             }
@@ -146,7 +163,7 @@
                 display: block;
                 color:white;
                 &:hover{
-                    text-decoration: underline;
+                    text-decoration: none;
                 }
             }
         }
@@ -154,7 +171,7 @@
     // Logo
     .logo {
         float: left;
-        margin-right: 15px;
+        margin-right: 20px;
         a{
             font-family: 'open_sansbold';
             color: white;
@@ -172,29 +189,30 @@
     &.scrolled-nav{
         background: white!important;
         border-bottom: 1px solid lightgrey;
+        height: 60px;
         #menu_icon{
             margin-top: 3px;
         }
         .cta-menu-holder{
-            margin-top: 8px;
+            line-height: 60px;
             .header-login-link{
                 color: $blue;
-            }
-            .header-cta-link{
-                padding: 1px 15px;
             }
         }
         .nav{
             padding-top: 0;
+            height: 60px;
+            line-height: 60px;
+            font-size: 14px;
             ul{
-                margin: 9px 0 0 0;
+                margin: 0;
                 li{
                     color: grey;
                     a{
-                        color: grey;
+                      color: #333;
                     }
                     ul{
-                        margin-top: 0;
+                        margin-top: -15px;
                     }
                 }
             }
@@ -204,17 +222,23 @@
             a{
                 font-size:30px;
                 color: $dark-blue;
-                line-height: 35px;
+                height: 60px;
                 span{
                  color: $dark-blue;
                 }
                 img{
-                    width: 100px;
-                    opacity: 0;
+                    width: 130px;
+                    opacity: 1;
                     &.dark-logo{
-                        opacity: 1;
-                        position: absolute;
-                        top: 17px;
+                    }
+                    &.main-logo{
+                      visibility: hidden;
+                      opacity: 0;
+                      margin-left: -130px;
+                    }
+                    &.scrolled-logo{
+                      visibility: visible;
+                      opacity: 1;
                     }
                 }
             }
