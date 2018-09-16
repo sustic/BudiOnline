@@ -5,8 +5,10 @@
 .slider{
   &.twitter-slide{
     .twitter-message{
-      font-size: 25px!important;
-      color: #696969!important;
+      font-size: 17.5px!important;
+      color: #333!important;
+      line-height: 1.7!important;
+      margin-bottom: 20px!important;
       @media only screen and (max-width:640px) {
         font-size: 22px!important;
         line-height: 1.2!important;
@@ -14,7 +16,9 @@
     }
     .twitter-handle{
        a{
-         color:#1da1f2;
+         color:#2b79a7;
+         font-size: 17px;
+         font-family: 'ralewayregular';
          text-decoration: none!important;
          &:hover{
            text-decoration: underline!important;

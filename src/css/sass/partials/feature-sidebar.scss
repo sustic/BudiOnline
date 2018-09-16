@@ -29,11 +29,12 @@
       }
     }
     h1{
-      font-size: 40px;
+      font-size: 50px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+      color: #2b79a7;
       @media only screen and (max-width: 768px) {
         font-size: 38px;
       }
@@ -42,11 +43,12 @@
       }
     }
     h2{
-      font-size: 38px;
+      font-size: 36px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+          color: #2b79a7;
       @media only screen and (max-width: 768px) {
         font-size: 32px;
       }
@@ -55,11 +57,12 @@
       }
     }
     h3{
-      font-size: 32px;
+      font-size: 24px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+          color: #2b79a7;
       @media only screen and (max-width: 768px) {
         font-size: 28px;
       }
@@ -68,11 +71,12 @@
       }
     }
     h4{
-      font-size: 28px;
+      font-size: 20px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+          color: #2b79a7;
       @media only screen and (max-width: 768px) {
         font-size: 22px;
       }
@@ -81,11 +85,12 @@
       }
     }
     h5{
-      font-size: 22px;
+      font-size: 18px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+          color: #2b79a7;
       @media only screen and (max-width: 768px) {
         font-size: 18px;
       }
@@ -94,17 +99,18 @@
       }
     }
     h6{
-      font-size: 18px;
+      font-size: 16px;
       padding: 0;
       margin: 0;
       line-height: 1.5;
-      font-family: 'ralewaybold';
+      font-family: 'ralewayregular';
+          color: #2b79a7;
       @media only screen and (max-width: 500px) {
         font-size: 16px;
       }
     }
     p{
-      font-size: 18px;
+      font-size: 15px;
       line-height: 1.5;
       padding: 0;
       margin: 0;
@@ -114,9 +120,9 @@
       }
     }
     a{
-      color: #3aa7fd;
+      color: #2b79a7;
       &:hover{
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
     h1, h2, h3, h4, h5, h6, p, ol, ul, img{
@@ -125,10 +131,10 @@
       margin-bottom: 15px;
     }
     ul, ol{
-      padding-left: 20px;
-      font-size: 18px;
+      padding-left: 35px;
+      font-size: 15px;
       @media only screen and (max-width: 768px) {
-        font-size: 16px;
+        font-size: 14px;
       }
       li{
         font-family: 'open_sansregular';
