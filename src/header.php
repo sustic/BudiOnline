@@ -62,13 +62,21 @@
 	</head>
     <body <?php body_class(); ?>>
 <header class="header clear header-scroll-handler <?php if ( get_field('header_css_class') ) : ?> <?php echo get_field('header_css_class'); ?> <?php else: ?>narrow-width  <?php endif; ?>" role="banner" style="<?php if ( get_field('header_color') ) : ?> background:<?php echo get_field('header_color'); ?>; <?php else: ?> background:#3d82bc; <?php endif; ?>">
-            
+
+
             <div class="container">
 				<div class="logo">
-					<a href="<?php echo esc_url( home_url() ); ?>">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" style="max-width: 180px;" class="logo-img dark-logo scrolled-logo">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" style="max-width: 180px;" class="logo-img main-logo">
-						
+                    <a href="<?php echo esc_url( home_url() ); ?>">
+                        <?php if ( get_field('header_logo_image_link') ) : ?>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/<?php echo get_field('header_logo_image_link'); ?>" alt="Logo" style="max-width: 180px;" class="logo-img dark-logo scrolled-logo">
+                        <?php else: ?>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" style="max-width: 180px;" class="logo-img dark-logo scrolled-logo">
+                        <?php endif; ?>
+                        <?php if ( get_field('header_logo_image_scrolled_link') ) : ?>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/<?php echo get_field('header_logo_image_scrolled_link'); ?>" alt="Logo" style="max-width: 180px;" class="logo-img main-logo">
+                        <?php else: ?>
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_light.svg" alt="Logo" style="max-width: 180px;" class="logo-img main-logo">
+                        <?php endif; ?>
 						<i class="fas fa-rocket" style="display:none"></i>
 					</a>
 				</div>

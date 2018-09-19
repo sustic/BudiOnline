@@ -174,6 +174,44 @@
             "maxlength": ""
         },
         {
+            "key": "field_5ba2a7077da65",
+            "label": "Header logo image file name",
+            "name": "header_logo_image_link",
+            "type": "text",
+            "instructions": "File has to be in the \"img\" folder, the same folder where default logos are",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Custom header logo file name",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba2a7247da66",
+            "label": "Header logo image scrolled file name",
+            "name": "header_logo_image_scrolled_link",
+            "type": "text",
+            "instructions": "File has to be in the \"img\" folder, the same folder where default logos are",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Custom scrolled header logo file name",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5ab29c71e96c1",
             "label": "Elements",
             "name": "elements",
@@ -609,5 +647,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1537383833
+    "modified": 1537386836
 }
