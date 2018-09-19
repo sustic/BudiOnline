@@ -72,11 +72,26 @@ use Abraham\TwitterOAuth\TwitterOAuth;
                     </div>
                 </div>
             </section>
+        <?php
+			elseif( get_row_layout() == 'scroll_to_top' ): 
+	    ?>
+            <a href="#top" class="scroll-top-link"><i class="fas fa-angle-up"></i></a>
         
         <?php
-			elseif( get_row_layout() == 'google_map' ): 
+            elseif( get_row_layout() == 'google_map' ):
+            $mapElementWidth = get_sub_field('element_width');
         ?> 
+            <?php 
+                if ($mapElementWidth == 1):
+            ?>
             <section class="map full-width" data-aos="fade-up">
+            <?php 
+                else:
+            ?>
+            <section class="map narrow-width" data-aos="fade-up">
+            <?php 
+                endif;
+            ?>
                 <div class="container">
                     <div class="container-inner">
                         <div id="map" style="height:400px;"></div>

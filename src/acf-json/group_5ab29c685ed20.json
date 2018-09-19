@@ -22,9 +22,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_5ab633d367b0c",
-            "label": "Header css class",
-            "name": "header_css_class",
+            "key": "field_5ba296edd3315",
+            "label": "Header color scrolled down",
+            "name": "header_color_scrolled_down",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -34,8 +34,141 @@
                 "class": "",
                 "id": ""
             },
+            "default_value": "",
+            "placeholder": "Chose color for scrolled header background",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab633d367b0c",
+            "label": "Header css class",
+            "name": "header_css_class",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
             "default_value": "narrow-width",
             "placeholder": "Put css classes you want to be added to the header here.",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba29688d3313",
+            "label": "Header CTA background color",
+            "name": "header_cta_background_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Chose color for header CTA button",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba296b2d3314",
+            "label": "Header CTA text color",
+            "name": "header_cta_text_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Chose color for header CTA text",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba29a1c84fc9",
+            "label": "Header menu text color",
+            "name": "header_menu_text_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Menu text color",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba29a2e84fca",
+            "label": "Scrolled menu text color",
+            "name": "scrolled_menu_text_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Scrolled menu text color",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba29a4384fcb",
+            "label": "Login button text color",
+            "name": "login_button_text_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Login button text color",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ba29a5184fcc",
+            "label": "Scrolled login button text color",
+            "name": "scrolled_login_button_text_color",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Scrolled login button text color",
             "prepend": "",
             "append": "",
             "maxlength": ""
@@ -301,6 +434,30 @@
                             "message": "Add this element only once per page!",
                             "new_lines": "wpautop",
                             "esc_html": 0
+                        },
+                        {
+                            "key": "field_5ba293c73dcc3",
+                            "label": "Element width",
+                            "name": "element_width",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "1": "Full",
+                                "2": "Narrow"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": 2,
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "save_other_choice": 0
                         }
                     ],
                     "min": "",
@@ -382,6 +539,33 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5ba29d5c55009": {
+                    "key": "layout_5ba29d5c55009",
+                    "name": "scroll_to_top",
+                    "label": "Scroll to top",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ba29d785500a",
+                            "label": "Element warning",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "Use this element only once per page",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Element",
@@ -413,7 +597,6 @@
     "hide_on_screen": [
         "the_content",
         "excerpt",
-        "custom_fields",
         "discussion",
         "comments",
         "revisions",
@@ -426,5 +609,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1525285972
+    "modified": 1537383833
 }

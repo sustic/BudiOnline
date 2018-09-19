@@ -21,10 +21,49 @@
 			*/
 			$menu_object = wp_get_nav_menu_object( 2 );
 		?>
+        <style>
+            <?php if ( get_field('header_color_scrolled_down') ) : ?>
+                .header.scrolled-nav{
+                    background:<?php echo get_field('header_color_scrolled_down'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('header_cta_background_color') ) : ?>
+                .header .cta-menu-holder .header-cta-link{
+                    background:<?php echo get_field('header_cta_background_color'); ?>!important;
+                    border-color:<?php echo get_field('header_cta_background_color'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('header_cta_text_color') ) : ?>
+                .header .cta-menu-holder .header-cta-link{
+                    color:<?php echo get_field('header_cta_text_color'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('header_menu_text_color') ) : ?>
+                .header .nav ul a{
+                    color:<?php echo get_field('header_menu_text_color'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('scrolled_menu_text_color') ) : ?>
+                .header.scrolled-nav .nav ul a{
+                    color:<?php echo get_field('scrolled_menu_text_color'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('login_button_text_color') ) : ?>
+                .header .cta-menu-holder .header-login-link{
+                    color:<?php echo get_field('login_button_text_color'); ?>!important;
+                }
+            <?php endif; ?>
+            <?php if ( get_field('scrolled_login_button_text_color') ) : ?>
+                .header.scrolled-nav .cta-menu-holder .header-login-link{
+                    color:<?php echo get_field('scrolled_login_button_text_color'); ?>!important;
+                }
+            <?php endif; ?>
+        </style>
 	</head>
-	<body <?php body_class(); ?>>
+    <body <?php body_class(); ?>>
 <header class="header clear header-scroll-handler <?php if ( get_field('header_css_class') ) : ?> <?php echo get_field('header_css_class'); ?> <?php else: ?>narrow-width  <?php endif; ?>" role="banner" style="<?php if ( get_field('header_color') ) : ?> background:<?php echo get_field('header_color'); ?>; <?php else: ?> background:#3d82bc; <?php endif; ?>">
-			<div class="container">
+            
+            <div class="container">
 				<div class="logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Logo_dark.svg" alt="Logo" style="max-width: 180px;" class="logo-img dark-logo scrolled-logo">
@@ -64,10 +103,8 @@
 					</div>
 				<?php endif; ?>
 			</div>
-		</header>
-
-
-
+        </header>
+        <a name="top"></a>
 		<!-- wrapper 
 		<div class="wrapper">
 		-->
