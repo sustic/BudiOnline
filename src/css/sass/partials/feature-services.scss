@@ -27,19 +27,19 @@
                 border: 1px solid #ccc;
                 border-radius: 4px;
                 padding: 10px 30px;
-                font-family: 'open_sansregular';
+                font-family: 'OpenSans-Regular';
                 font-weight: 400;
-                line-height: 1.4;                
+                line-height: 1.4;
                 font-size: 14px;
                 margin-bottom: 5px;
                 transition: all 0.2s;
                 &:hover {
                     cursor: pointer;
-                    background-color: #E5E5E5; 
+                    background-color: #E5E5E5;
                     border-color: #ACACAC;
                 }
                 @media only screen and(max-width: 991px){
-                    display: block;                    
+                    display: block;
                     text-align: center;
                 }
             }
@@ -57,7 +57,7 @@
                         max-width: 150px;
                         margin-bottom: 30px;
                     }
-                }                
+                }
             }
             .column-right {
                 flex-basis: 75%;
@@ -69,7 +69,7 @@
                     color: #76a24f;
                     margin-top: 0;
                     margin-bottom: 10px;
-                    font-family: 'ralewayregular';
+                    font-family: 'Raleway-Regular';
                     font-weight: 400;
                     line-height: 1.1;
                 }
@@ -100,10 +100,10 @@
                 p{
                     margin-top: 0;
                     margin-bottom: 20px;
-                    font-family: 'open_sansregular';
+                    font-family: 'OpenSans-Regular';
                     font-size: 15px;
                     color: #333;
-                    line-height: 1.7; 
+                    line-height: 1.7;
                 }
                 .row-inner{
                     display: flex;
@@ -123,7 +123,7 @@
                                 padding-left: 20px;
                             }
                             li{
-                                font-family: 'open_sansregular';
+                                font-family: 'OpenSans-Regular';
                                 font-weight: 400;
                                 color: #333;
                                 font-size: 15px;
@@ -133,7 +133,7 @@
                                 }
                             }
                         }
-                    }                
+                    }
                 }
             }
         }

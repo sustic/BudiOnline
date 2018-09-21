@@ -4,7 +4,7 @@
  */
 .footer {
     .footer-top {
-        .container {        
+        .container {
             .container-inner {
                 width: 95%;
                 max-width: 1200px;
@@ -55,22 +55,22 @@
                     }
                 }
                 .column-width-16, .column-width-16x2, .column-width-100, .column-width-50, .column-width-33 {
-                    padding: 0 15px;    
-                    margin-bottom: 20px;            
+                    padding: 0 15px;
+                    margin-bottom: 20px;
                     h1, h2, h3, h4 {
-                        color: #cad3dc;                        
+                        color: #cad3dc;
                         margin-top: 0;
                         margin-bottom: 10px;
                         padding-bottom: 10px;
                         border-bottom: 1px solid #445a71;
-                        font-family: 'ralewaybold';
+                        font-family: 'Raleway-Bold';
                         font-weight: 400;
                     }
                     h1{
-                        font-size: 20px;                       
+                        font-size: 20px;
                      }
                     h2{
-                        font-size: 18px;                       
+                        font-size: 18px;
                      }
                     h3{
                         font-size: 16px;
@@ -89,7 +89,7 @@
                         transition: all 0.2s;
                         font-size: 14px;
                         line-height: 1.7;
-                        font-family: 'open_sansregular';
+                        font-family: 'OpenSans-Regular';
                         &:hover{
                             cursor: pointer;
                             color: white;
@@ -108,7 +108,7 @@
                                 order: 10;
                             }
                         }
-                    }    
+                    }
                 }
             }
         }
@@ -127,23 +127,23 @@
                     align-items: center;
                 }
                 .column-left {
-                    display: flex; 
-                    flex-direction: column;                      
-                    justify-content: flex-start;      
-                    padding-left: 15px;  
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-left: 15px;
                     @media only screen and (max-width: 768px) {
                         padding-left: 0;
-                    }                                      
-                    .logo {    
-                        height: 30px;                
-                        a{                                                   
-                            font-family: 'open_sansbold';
+                    }
+                    .logo {
+                        height: 30px;
+                        a{
+                            font-family: 'OpenSans-Bold';
                             color: white;
-                            line-height: 30px;                           
+                            line-height: 30px;
                             font-size: 30px;
-                            transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;    
+                            transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out;
                             margin: 0;
-                            padding: 0;                    
+                            padding: 0;
                             &:hover, &:focus, &:active{
                                 text-decoration: none;
                             }
@@ -158,10 +158,10 @@
                         @media only screen and (max-width: 768px) {
                             text-align: center;
                         }
-                        
+
                     }
-                    .text { 
-                        margin-top: 20px;                      
+                    .text {
+                        margin-top: 20px;
                         p{
                             color: #707e8c;
                             font-size: 12px;
@@ -175,22 +175,22 @@
                                 @media only screen and (max-width: 768px) {
                                     display: none;
                                 }
-                            }                            
+                            }
                         }
                     }
                 }
                 .column-right{
-                    display: flex;   
-                    flex-direction: column;   
-                    padding-right: 15px; 
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 15px;
                     @media only screen and (max-width: 768px) {
                         padding-right: 0;
                     }
                     .cards{
                         display: flex;
                         justify-content: flex-end;
-                        align-items: center;  
-                        line-height: 38px;                                              
+                        align-items: center;
+                        line-height: 38px;
                         img{
                             width: 100%;
                             max-width: 48px;
@@ -203,8 +203,8 @@
                     }
                     .links {
                         margin-top: 20px;
-                        display: flex;                        
-                        flex-direction: column;                        
+                        display: flex;
+                        flex-direction: column;
                         p{
                             color: #707e8c;
                             font-size: 12px;
@@ -212,20 +212,20 @@
                             margin: 0;
                             align-self: flex-end;
                             @media only screen and (max-width: 768px) {
-                                align-self: center;                               
-                            } 
+                                align-self: center;
+                            }
                         }
                         .footer-nav{
                             list-style-type: none;
                             margin: 0;
                             padding: 0;
-                            display: flex;   
+                            display: flex;
                             justify-content: flex-end;
                             @media only screen and (max-width: 768px) {
-                                justify-content: center;                               
+                                justify-content: center;
                             }
                             .link {
-                                &:first-child {                                    
+                                &:first-child {
                                     &:before {
                                         content: '';
                                     }
@@ -234,15 +234,15 @@
                                     content: ' | ';
                                     margin-left: 10px;
                                     margin-right: 5px;
-                                    color: #707e8c; 
-                                }                                                              
+                                    color: #707e8c;
+                                }
                                 a {
                                     color: #707e8c;
                                     text-decoration: none;
                                     transition: all 0.2s;
                                     font-size: 12px;
                                     line-height: 1.7;
-                                    font-family: 'open_sansregular';
+                                    font-family: 'OpenSans-Regular';
                                     &:hover{
                                         cursor: pointer;
                                         color: white;
@@ -251,7 +251,7 @@
                             }
                         }
                     }
-                }               
+                }
             }
         }
     }

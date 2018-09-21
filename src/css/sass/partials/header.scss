@@ -62,12 +62,12 @@
         transition: margin-top 0.2s ease-in-out, line-height 0.2s ease-in-out;
         line-height: 70px;
         .header-login-link{
-            font-family: 'open_sansbold';
+            font-family: 'OpenSans-Bold';
             color: white;
             text-decoration: none;
         }
         .header-cta-link{
-            font-family: 'open_sansbold';
+            font-family: 'OpenSans-Bold';
             background-color: $hilight-green;
             border: 1px solid $dark-green;
             color: white;
@@ -86,7 +86,7 @@
     .nav{
         float: left;
         font-size: 15px;
-        font-family: 'open_sansregular';
+        font-family: 'OpenSans-Regular';
         height: 70px;
         line-height: 70px;
         transition: padding-top 0.2s ease-in-out, height 0.2s ease-in-out, right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), line-height 0.2s ease-in-out, top 0.2s ease-in-out;
@@ -174,7 +174,7 @@
         float: left;
         margin-right: 20px;
         a{
-            font-family: 'open_sansbold';
+            font-family: 'OpenSans-Bold';
             color: white;
             font-size: 40px;
             transition: font-size 0.2s ease-in-out, color 0.2s ease-in-out, line-height 0.2s ease-in-out;
@@ -305,7 +305,7 @@
                             a{
                                 color: $grey;
                                 font-size: 14px;
-                                font-family: 'open_sansregular';
+                                font-family: 'OpenSans-Regular';
                                 line-height: 1.2;
                             }
                         }
@@ -313,7 +313,7 @@
                     a{
                         font-size: 18px;
                         color: $grey;
-                        font-family: 'open_sansbold';
+                        font-family: 'OpenSans-Bold';
                         line-height: 1.7;
                     }
                 }

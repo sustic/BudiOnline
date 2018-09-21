@@ -8,7 +8,7 @@
         .container-inner {
             width: 95%;
             max-width: 1200px;
-            margin: 0 auto;             
+            margin: 0 auto;
             display: flex;
             align-items: center;
             .column-left{
@@ -17,19 +17,19 @@
                 flex-basis: 33.33%;
                 margin-bottom: 0;
                 font-size: 18px;
-                font-family: 'open_sansregular';
+                font-family: 'OpenSans-Regular';
                 font-weight: 300;
-                line-height: 1.4; 
+                line-height: 1.4;
                 @media only screen and(max-width: 768px){
                     flex-basis: 100%;
-                }               
+                }
                p{
                     margin: 0;
                     .hidden {
                         @media only screen and (max-width: 991px){
-                            display: none;                        
+                            display: none;
                         }
-                    }                  
+                    }
                 }
             }
             .column-right{
@@ -43,13 +43,13 @@
                     display: flex;
                     margin: 0;
                     li{
-                        flex-basis: 20%;     
+                        flex-basis: 20%;
                         img {
-                            width: 95%;                            
+                            width: 95%;
                             filter: grayscale(100%);
                         }
                     }
-                }         
+                }
             }
         }
     }
