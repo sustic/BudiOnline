@@ -233,9 +233,9 @@
 		}
 		p {
 			line-height: 1.7;
-			font-family: 'OpenSans-Regular';
+      font-family: 'OpenSans-Regular';
 			font-weight: 400;
-			font-size: 1.3em;
+			font-size: 16.5px;
 		}
 		img{
 			max-width: 90px;
@@ -671,7 +671,7 @@
 			line-height: 1.7;
 			font-family: 'OpenSans-Regular';
 			font-weight: 400;
-			font-size: 18px;
+			font-size: 16.5px;
 			margin-top: 0;
 			margin-bottom:10px;
 			color:$text-color;
@@ -778,7 +778,7 @@
 					font-size: 17px;
 				}
 				p, blockquote {
-					font-family: 'OpenSans-Regular';
+					font-family: 'Raleway-Regular';
 					font-weight: 400;
 					color: $text-color;
 					line-height: 1.7;
@@ -793,10 +793,6 @@
 				p {
 					font-size: 15px;
 					margin: 0;
-				}
-				blackquote {
-					display: block;
-					font-size: 18px;
 				}
 				blockquote {
 					display: block;

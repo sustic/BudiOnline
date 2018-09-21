@@ -63,8 +63,13 @@
         line-height: 70px;
         .header-login-link{
             font-family: 'OpenSans-Bold';
-            color: white;
+            color: #eee;
             text-decoration: none;
+            font-size: 14px;
+            text-decoration: underline;
+            &:hover{
+              text-decoration: none;
+            }
         }
         .header-cta-link{
             font-family: 'OpenSans-Bold';
@@ -72,9 +77,10 @@
             border: 1px solid $dark-green;
             color: white;
             border-radius: 5px;
-            padding: 4px 15px;
+            padding: 6px 20px;
             margin-left: 13px;
             opacity: 1;
+            font-size: 14px;
             transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, padding 0.2s ease-in-out;
             &:hover, &:focus{
                 background-color: $dark-green;
@@ -87,6 +93,7 @@
         float: left;
         font-size: 15px;
         font-family: 'OpenSans-Regular';
+        font-weight: 400;
         height: 70px;
         line-height: 70px;
         transition: padding-top 0.2s ease-in-out, height 0.2s ease-in-out, right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), line-height 0.2s ease-in-out, top 0.2s ease-in-out;
@@ -103,7 +110,7 @@
                 float: left;
                 margin-right: 20px;
                 position: relative;
-                color: white;
+                color: #eee;
                 a{
                   transition: opacity 0.2s ease-in-out;
                 }
@@ -145,13 +152,17 @@
                     margin-top: -20px;
                     line-height: 1.7;
                     li{
-                        padding: 0 20px;
+                        padding: 0 22px;
                         margin-right: 0;
+                        font-size: 14px;
                         float: none;
                         background-color:transparent;
                         transition: background-color 0.2s ease-in-out;
                         &:hover{
                             background-color: #f6f6f6;
+                        }
+                        a{
+                          color: #333;
                         }
                     }
                     a{
@@ -162,8 +173,8 @@
             }
             a{
                 display: block;
-                color:white;
-                &:hover{
+                color:#eee;
+                &:hover, &:focus{
                     text-decoration: none;
                 }
             }

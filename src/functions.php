@@ -102,22 +102,22 @@ function html5blank_header_scripts() {
             //wp_register_script( 'modernizr', get_template_directory_uri() . '/js/lib/modernizr.js', array(), '2.8.3' );
 
             // slickslider
-            wp_register_script( 'slickslider', get_template_directory_uri() . '/js/lib/slick.min.js', array( 'jquery' ), '1.0.0' );
+            wp_register_script( 'slickslider', get_template_directory_uri() . '/js/lib/slick.min.js', array( 'jquery' ), '2.0.0' );
 
             // fancybox
-            wp_register_script( 'fancybox', get_template_directory_uri() . '/js/lib/jquery.fancybox.min.js', array( 'jquery' ), '1.0.0' );
+            wp_register_script( 'fancybox', get_template_directory_uri() . '/js/lib/jquery.fancybox.min.js', array( 'jquery' ), '2.0.0' );
 
             // marka animated icons
-            wp_register_script( 'markaJs', get_template_directory_uri() . '/js/lib/marka.min.js', array( ), '1.0.0' );
+            wp_register_script( 'markaJs', get_template_directory_uri() . '/js/lib/marka.min.js', array( ), '2.0.0' );
 
             // fontAwesome icons
-            wp_register_script( 'fontAwesomeJs', get_template_directory_uri() . '/js/lib/fontawesome-all.min.js', array( ), '5.0.9' );
+            wp_register_script( 'fontAwesomeJs', get_template_directory_uri() . '/js/lib/fontawesome-all.min.js', array( ), '6.0.9' );
 
             // prismJS
-            wp_register_script( 'prismJS', get_template_directory_uri() . '/js/lib/prism.js', array( 'jquery' ), '1.0.0' );
+            wp_register_script( 'prismJS', get_template_directory_uri() . '/js/lib/prism.js', array( 'jquery' ), '2.0.0' );
 
             // aos
-            wp_register_script( 'aosJs', get_template_directory_uri() . '/js/lib/aos.min.js', array( 'jquery' ), '1.0.0' );
+            wp_register_script( 'aosJs', get_template_directory_uri() . '/js/lib/aos.min.js', array( 'jquery' ), '2.0.0' );
 
             // Custom scripts
             wp_register_script(
@@ -134,7 +134,7 @@ function html5blank_header_scripts() {
                     'prismJS',
                     'jquery'
                 ),
-                '1.0.0' );
+                '2.0.0' );
 
             // Enqueue Scripts
             wp_enqueue_script( 'html5blankscripts' );
@@ -142,7 +142,7 @@ function html5blank_header_scripts() {
         // If production
         } else {
             // Scripts minify
-            wp_register_script( 'html5blankscripts-min', get_template_directory_uri() . '/js/scripts.min.js', array('jquery'), '1.0.0', true );
+            wp_register_script( 'html5blankscripts-min', get_template_directory_uri() . '/js/scripts.min.js', array('jquery'), '2.0.0', true );
             // Enqueue Scripts
             wp_enqueue_script( 'html5blankscripts-min' );
         }
