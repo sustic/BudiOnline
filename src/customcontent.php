@@ -115,7 +115,7 @@ use Abraham\TwitterOAuth\TwitterOAuth;
                 $statuses = $connection->get("statuses/user_timeline", ["count" => get_sub_field('number_of_tweets'), "exclude_replies" => false]);
                 //print_r($statuses);    
             ?>
-            <section class="slider twitter-slide full-width padding-normal" data-aos="fade-up">
+            <section class="slider twitter-slide full-width padding-normal <?php echo get_sub_field('custom_css_class'); ?>" data-aos="fade-up">
                 <div class="container">
                     <div class="main-slider twitter-slider-js text-center">
                         <?php

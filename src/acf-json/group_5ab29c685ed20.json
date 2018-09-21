@@ -371,6 +371,25 @@
                             "maxlength": ""
                         },
                         {
+                            "key": "field_5ba513df99d96",
+                            "label": "Custom css class",
+                            "name": "custom_css_class",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5ae9f28686e56",
                             "label": "Consumer Key (API Key)",
                             "name": "consumer_key_api_key",
@@ -647,5 +666,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1537386836
+    "modified": 1537545201
 }
